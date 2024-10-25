@@ -1,0 +1,34 @@
+﻿tr > th, td {
+    text-align: center;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.portlet {
+    margin-bottom: 20px;
+    border: 1px solid #0f529a;
+}
+
+.portlet.box.green > .portlet-title {
+    background-color: #0f529a;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
+}
+
+.portlet-body {
+    padding: 5px 0px 5px 0px;
+}
+
+.caption {
+    padding-left: 15px;
+}
+
+.font-size-icon {
+    font-size: 18px;
+    padding: 0px 1px;
+}
+.btn-register {
+    margin-bottom: 20px;
+}

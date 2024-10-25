@@ -1,0 +1,44 @@
+.col-sm-45, .col-sm-35, .col-sm25{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px){
+	.col-sm-45 {
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
+	}
+	.col-sm-35 {
+    flex: 0 0 29.1666%;
+    max-width: 29.1666%;
+	}
+	.col-sm-25 {
+    flex: 0 0 20.833%;
+    max-width: 20.833%;
+	}
+}
+
+.col-4-5 {
+  flex: 0 0 37.5%;
+  max-width: 37.5%;
+}
+
+.row{
+	&.row-sm{
+		margin-left: -5px;
+		margin-right: -5px;
+		[class^='col-']{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+	&.row-md{
+		margin-left: -8px;
+		margin-right: -8px;
+		[class^='col-']{
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	}
+}

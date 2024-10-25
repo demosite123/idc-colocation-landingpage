@@ -1,0 +1,102 @@
+.recruitment-modal {
+  .modal-content {
+    border-radius: 0 0 0.3rem 0.3rem;
+  }
+}
+
+.recruitment-list {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+
+  .recruitment-item {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-top: 25px;
+    border-top: 1px solid $border-agency;
+
+    &:last-child {
+      border-bottom: 1px solid $border-agency;
+    }
+
+    .recruitment-item-brand {
+      color: #9b9b9b;
+      padding-bottom: 25px;
+    }
+
+    p {
+      margin: 0;
+      padding-bottom: 25px;
+    }
+
+    .social-group {
+      display: block;
+      width: 100%;
+      position: relative;
+      padding-bottom: 25px;
+    }
+
+    .social-link {
+      display: inline-block;
+      position: relative;
+      width: 35px;
+      height: 35px;
+      text-decoration: none !important;
+      border: 1px solid #A5A5A5;
+      @include border-radius(50%);
+      @include transition(all .5s);
+
+      i {
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        color: #A5A5A5;
+        font-size: 30px;
+        @include translate(-50%, -50%);
+
+        &.icon-envelope-regular {
+          font-size: 16px;
+        }
+      }
+
+      &.facebook {
+        &:hover {
+          border: 1px solid #297EC9;
+          background-color: #297EC9;
+
+          i {
+            color: white;
+          }
+        }
+      }
+
+      &.twitter {
+        &:hover {
+          border: 1px solid #0DABA0;
+          background-color: #0DABA0;
+
+          i {
+            color: white;
+          }
+        }
+      }
+
+      &.envelope {
+        &:hover {
+          border: 1px solid #F68E24;
+          background-color: #F68E24;
+
+          i {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.recruitment-form{
+
+}

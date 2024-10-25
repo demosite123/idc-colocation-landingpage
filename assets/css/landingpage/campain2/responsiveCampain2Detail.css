@@ -1,0 +1,14 @@
+.ContentBlock_2_mobile {
+    display:none;
+}
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .ContentBlock_2_web{
+        display: none !important;
+    }
+
+    .ContentBlock_2_mobile{
+        display:block !important;
+    }
+}

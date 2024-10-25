@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <defs>
+        <style>.cls-1{fill:#0DABA0;}.cls-2{fill:#fff;}</style>
+    </defs>
+    <title>Icon MB net_trangchu</title>
+    <path class="cls-1" d="M30,0A30,30,0,1,0,60,30,30,30,0,0,0,30,0Z"/>
+    <circle class="cls-2" cx="30" cy="29.86" r="14"/>
+    <path class="cls-2" d="M25.08,42.19s-.41,3.59-1.33,4.59c5.58-.84,9.92-3.59,10-5S25.08,42.19,25.08,42.19Z"/>
+    <path class="cls-1" d="M29.08,35.28h10s-.5,3.49-5,3.45C29.45,38.69,29.08,35.28,29.08,35.28Z"/>
+</svg>

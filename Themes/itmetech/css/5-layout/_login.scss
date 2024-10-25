@@ -1,0 +1,167 @@
+.auth-card {
+    width: 100%;
+    max-width: 612px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    margin: 90px auto;
+
+    .card-body {
+        padding: 75px;
+    }
+
+    &.register-card {
+        .card-body {
+            padding: 56px;
+        }
+    }
+
+    .card-title {
+        font-family: $font-mont;
+        font-size: 36px;
+        line-height: 1.19;
+        letter-spacing: -0.9px;
+        color: rgba(34, 34, 34, .8);
+        text-align: center;
+    }
+
+    .card-subtitle {
+        font-family: $font-cabin;
+        font-size: 15px;
+        line-height: 1.73;
+        text-align: center;
+        color: rgba(53, 54, 56, .7);
+    }
+
+    .form-group {
+        position: relative;
+        margin-bottom: 1.25rem;
+
+        .form-control-icon {
+            position: absolute;
+            font-size: 20px;
+            top: 15px;
+            left: 20px;
+            color: $turquoise;
+
+            & + .form-control {
+                padding-left: 56px;
+            }
+        }
+
+        .form-control {
+            min-height: 60px;
+            font-family: $font-cabin;
+            font-size: 16px;
+            line-height: 1.56;
+            color: rgba(53, 54, 56, .8);
+            padding-left: 18px;
+            padding-right: 40px;
+            background-image: none;
+
+            &.has-link {
+                padding-right: 70px;
+            }
+
+            &:not(:invalid) {
+                border-color: #b5b5b5;
+            }
+        }
+
+        .link-inside-input {
+            font-family: $font-cabin;
+            font-size: 16px;
+            color: $blue-light;
+            position: absolute;
+            right: 20px;
+            top: 18px;
+        }
+    }
+
+    .help-text {
+        font-family: $font-cabin;
+        font-size: 16px;
+        color: #353638;
+        text-align: center;
+    }
+
+    .btn-action {
+        min-height: 60px;
+        font-size: 16px;
+    }
+
+    .bootstrap-select {
+        max-width: 100%;
+        width: 100% !important;
+
+        .btn {
+            min-height: 60px;
+        }
+    }
+
+    .custom-radio .radio-check {
+        border-width: 1px;
+        border-color: #979797;
+        width: 23px;
+        height: 23px;
+    }
+
+    .form-label {
+        font-family: $font-cabin;
+        font-size: 16px;
+        font-weight: bold;
+        color: #353638;
+
+        span {
+            display: block;
+            font-size: 14px;
+            line-height: 1.6;
+            color: rgba(53, 54, 56, .8);
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+    }
+
+    .custom-radio {
+        padding-left: 30px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin: 50px auto;
+
+        .card-body {
+            padding: 30px 25px !important;
+        }
+    }
+}
+
+.verification-code {
+    border-radius: 4px;
+    background-color: rgba(37, 178, 179, 0.25);
+    color: #353638;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 15px;
+
+    &.min-height {
+        line-height: 40px;
+
+        @include media-breakpoint-down(xs) {
+            margin-top: 10px;
+        }
+    }
+}
+
+.captcha-reload {
+    cursor: pointer;
+    font-size: 20px;
+
+    &.min-height {
+        font-size: 18px;
+
+        @include media-breakpoint-down(xs) {
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+﻿
+/*.service-icons {
+    text-align: center;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    transition: transition 0.2s; 
+}
+    .service-icons p {
+        transition: 0.2s;
+    }
+
+        .service-icons:hover p {
+            color: white;
+            transition: 0.2s;
+        }
+
+    .background-icon {
+        height: 70px;
+        transition: 0.5s;
+        transition-timing-function: ease;
+    }
+
+
+
+.service-icons {
+    height: 101px;
+}
+.service-group a {
+    cursor: pointer;
+}*/
+
+

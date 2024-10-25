@@ -1,0 +1,23 @@
+﻿body.home-page .home-header .top-nav.darkHeader {
+    background-color: white;
+    background: white;
+}
+
+nav {
+    border: 1px solid;
+}
+
+.clearHeader .menu-left li a.highlight {
+    color: white;
+}
+
+{
+    color: black;
+}
+
+.darkHeader .menu-left li a.telephone,
+.darkHeader .top-nav .lang-switcher,
+.darkHeader .icon-home-01:before,
+.darkHeader .free-account .menu-icon {
+    color: black !important;
+}

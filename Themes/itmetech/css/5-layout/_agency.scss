@@ -1,0 +1,440 @@
+.agency-title {
+  width: 100%;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  color: #222222;
+  margin-bottom: 35px;
+}
+
+.price-list-title {
+  width: 100%;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  color: #222222;
+}
+
+.agency-detail {
+  display: block;
+  width: 100%;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 16px;
+  color: #222222;
+  margin: 0;
+}
+
+.agency-policy {
+  display: block;
+  background-color: $agency-color;
+  width: 100%;
+  padding: 50px 0;
+
+  .agency-policy-title {
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+  }
+
+  .agency-policy-item {
+
+    &-title {
+      width: 100%;
+      height: 57px;
+      font-size: 46px;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    &-description {
+      width: 100%;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+.agency-list {
+  display: block;
+  background-color: white;
+  width: 100%;
+  padding: 25px 0 50px;
+
+  .agency-list-title {
+    width: 100%;
+    font-size: 42px;
+    margin-bottom: 55px;
+    font-weight: 300;
+    color: #222222;
+    text-align: center;
+  }
+
+  .agency-list-item {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 190px;
+    padding: 25px 15px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    border: 1px solid $border-agency;
+    overflow: hidden;
+    @include border-bottom-right-radius(15px);
+
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: 0 auto;
+      max-width: 350px;
+      max-height: 190px;
+      @include translate(-50%, -50%);
+    }
+
+    .agency-list-info {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 100%;
+      height: 0;
+      padding: 25px 20px;
+      background-color: transparent;
+      opacity: 0;
+      @include transition(all .5s);
+      @include translate(-50%, -50%);
+      @include border-bottom-right-radius(15px);
+
+      &-title {
+        color: transparent;
+        font-size: 16px;
+        font-weight: bold;
+        @include transition(all .5s);
+      }
+
+      &-description {
+        font-size: 14px;
+        color: transparent;
+        @include transition(all .5s);
+      }
+
+      a {
+        position: absolute;
+        font-size: 16px;
+        font-weight: bold;
+        color: transparent;
+        bottom: 10px;
+        right: 15px;
+        @include transition(all .5s);
+      }
+    }
+
+    &:hover {
+      .agency-list-info {
+        height: 100%;
+        width: 100%;
+        background-color: $agency-color;
+        opacity: 1;
+
+        a, h3, p {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .agency-list-load-more {
+    margin-top: 35px;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    min-width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    color: $text-sub-color;
+    border: solid 1px $text-sub-color;
+    @include border-radius(4px);
+
+    &:hover {
+      background-color: $orange;
+      border: solid 1px $orange;
+      color: white;
+    }
+  }
+}
+
+.partner-dialog, .recruitment-form, .qr-code-form {
+  .form-description {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    background-color: $grey;
+  }
+
+  .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  p {
+    font-weight: 500;
+
+    .blue {
+      color: $blue;
+    }
+  }
+
+  h2, h1, &-title {
+    font-size: 36px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 35px;
+
+    &.title-small {
+      font-size: 22px;
+      text-align: left;
+    }
+
+    .red {
+      color: $red;
+    }
+  }
+
+  h3, &-description {
+    font-size: 16px;
+    color: #353638;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  &-sub-title {
+    font-size: 16px;
+    color: #353638;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+
+  .modal-content {
+    padding: 15px 25px;
+  }
+
+  .form-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+
+    .form-control {
+      min-height: 50px;
+      font-family: $font-cabin;
+      font-size: 16px;
+      line-height: 1.56;
+      color: rgba(53, 54, 56, .8);
+      padding-left: 18px;
+      padding-right: 18px;
+      background-image: none;
+
+      &.has-link {
+        padding-right: 70px;
+      }
+
+      &:not(:invalid) {
+        border-color: #b5b5b5;
+      }
+    }
+
+    .bootstrap-select {
+      width: 100% !important;
+
+      .btn {
+        min-height: 50px;
+      }
+    }
+  }
+
+  .verification-code {
+    line-height: 50px;
+  }
+
+  .input-file {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+
+    .file-input {
+      display: none
+    }
+
+    .file-label {
+      position: relative;
+      cursor: pointer;
+      min-width: 160px;
+      padding: 15px 25px 15px 45px;
+      margin: 30px 0 0;
+      display: inline-block;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+      border: 0;
+      background-color: $orange;
+      @include border-radius(4px);
+      @include transition(all .5s);
+      @include media-breakpoint-down(md) {
+        margin: 0;
+      }
+      @include media-breakpoint-down(sm) {
+        display: block;
+      }
+
+      &:hover {
+        color: white;
+        background-color: darken($orange, 5%);
+      }
+
+      &.no-margin {
+        margin: 0;
+      }
+
+      &.blue {
+        background-color: $blue;
+
+        &:hover {
+          background-color: darken($blue, 5%);
+        }
+      }
+
+      .vt-icon {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        font-size: 25px;
+        @include translate(0, -50%);
+      }
+    }
+  }
+
+  .file-list {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+
+    .file-item {
+      display: block;
+      position: relative;
+      width: 100%;
+      margin-bottom: 5px;
+
+      .image-name {
+        position: relative;
+        margin: 0;
+        padding-left: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        .vt-icon {
+          position: absolute;
+          left: 5px;
+          top: 50%;
+          color: $blue;
+          @include translate(0, -50%);
+        }
+
+        .image-cancel {
+          position: absolute;
+          right: 0;
+          top: 0;
+          color: #353638;
+          @include transition(all .5s);
+
+          .vt-icon {
+            position: relative;
+            left: 0;
+            top: 0;
+            color: #353638;
+          }
+
+          &:hover {
+            color: lighten(#545659, 15%);
+          }
+        }
+      }
+
+      .image-process {
+        display: block;
+        width: 100%;
+        position: relative;
+        padding: 0;
+
+        .image-process-setting {
+          display: block;
+          width: 100%;
+          position: relative;
+
+          &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 11px;
+            background-color: #e9e9e9;
+            height: 3px;
+            width: 100%;
+          }
+
+          span {
+            position: absolute;
+            left: 0;
+            top: 11px;
+            background-color: $blue-light;
+            height: 3px;
+          }
+        }
+
+        .image-cancel {
+          position: absolute;
+          right: 0;
+          top: 0;
+          color: #353638;
+          @include transition(all .5s);
+
+          &:hover {
+            color: lighten(#545659, 15%);
+          }
+        }
+      }
+    }
+  }
+
+  .btn-request {
+    text-transform: uppercase;
+  }
+
+  .custom-checkbox {
+    margin-bottom: 25px !important;
+  }
+}
+
+.qr-code-form {
+  h2, h1, &-title {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 35px;
+  }
+}

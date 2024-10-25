@@ -1,0 +1,29 @@
+.carousel{
+	z-index: 1;
+	.carousel-indicators{
+		li{
+			width: 8px;
+			height: 8px;
+			background: transparent;
+			border: 2px solid #fff;
+			border-radius: 50%;
+			margin: 0 8px;
+			&.active{
+				background: #fff;
+			}
+		}
+	}
+}
+.banner-slider{
+	img{
+		max-width: 100%;
+	}
+	.carousel-indicators{
+		bottom: 164px;
+	}
+	@include media-breakpoint-down(md){
+		.slider-text{
+			text-align: center;
+		}
+	}
+}

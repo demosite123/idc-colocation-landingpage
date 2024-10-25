@@ -1,0 +1,49 @@
+.pagination-news {
+  display: block;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px;
+  background-color: white;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.pagination {
+  .page-item {
+    .page-link {
+      border: 0;
+      opacity: 0.4;
+      font-family: $font-cabin;
+      font-size: 16px;
+      font-weight: 500;
+      color: #353638;
+      &.page-icon{
+        font-size: 14px;
+      }
+    }
+
+    .null-item{
+      padding: 5px;
+      line-height: 16px;
+    }
+
+    &.active {
+      .page-link {
+        opacity: 1;
+        background-color: transparent;
+      }
+    }
+
+    &:first-child, &:last-child {
+      .page-link {
+        opacity: 0.4;
+        color: $blue;
+
+        &:hover {
+          opacity: 1;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

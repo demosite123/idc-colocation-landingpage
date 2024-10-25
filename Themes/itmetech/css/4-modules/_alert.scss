@@ -1,0 +1,70 @@
+.swal2-modal {
+  font-family: $font-mont;
+  text-align: right;
+  max-width: 500px;
+  @include transition(all 0.15s);
+
+  @include media-breakpoint-down(xs) {
+    max-width: 340px;
+    margin: -110px 0 0 -170px !important;
+    background: rgb(255, 255, 255);
+    @include calc(width, '100% - 30px');
+  }
+
+  .swal2-spacer {
+    height: 1px;
+    margin: 0.6rem 0;
+  }
+
+  .swal2-icon {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-width: 2px;
+    float: left;
+    margin-top: 5px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 40px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .swal2-content {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 40px;
+    text-align: left;
+  }
+
+  button.styled {
+    font-size: 14px;
+    padding: 8px 25px;
+    font-weight: 500;
+  }
+
+  button {
+    &.swal2-confirm {
+      background-color: $orange !important;
+      border-color: $orange !important;
+
+      &:hover {
+        background-color: darken($orange, 10%) !important;
+      }
+    }
+
+    &.swal2-cancel {
+      border: solid 1px #cccccc !important;
+      background-color: #ffffff !important;
+      color: $content-color !important;
+
+      &:hover {
+        background-color: #F2F2F2 !important;
+      }
+    }
+  }
+}

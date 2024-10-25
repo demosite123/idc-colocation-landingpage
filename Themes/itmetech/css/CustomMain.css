@@ -1,0 +1,82 @@
+﻿.color-red {
+    color: red !important;
+}
+.verticalTableHeader {
+    text-align: center;
+    white-space: nowrap;
+    transform-origin: 50% 50%;
+    transform: rotate(270deg);
+    color: #000000;
+    font-weight: bold;
+    position:absolute;  
+    letter-spacing:0.5px;
+}
+
+.row_span_table{
+    position:relative;
+    width:7%;
+}
+.tr_center_height td:not(.row_span_table) {
+    vertical-align: inherit;
+}
+.verticalTableHeader:before {
+    content: '';
+    padding-top: 100%;
+/*    display: inline-block;*/
+    vertical-align: middle;
+}
+
+
+.table-service-small {
+    width: 80%;
+    font-size: 16px;
+    margin: auto;
+}
+
+.table-service-small th p, .table-service-small tr p {
+    padding: 0;
+    margin: 0;
+}
+
+.table-service-small tr td {
+    height: 0%;
+    padding: 0.4rem 0.75rem;
+}
+
+/*    text hiển thị xem thêm*/
+.txtSeeMore a:hover {
+    color:red !important;
+}
+.txtSeeMore svg {
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-left: 4px;
+}
+.txtSeeMore {
+    overflow:hidden;
+    margin-bottom:2%;
+}
+#detailAttention{
+    margin-left:15.4%;
+}
+#detailAttention ul {
+    list-style: disc !important;
+    margin-left:9%;
+}
+.list-service-wrapper .list-service .grid-list .item .item-action.one-item {
+    min-height:8.35rem;
+}
+/** Css color and background for page orderdetail **/
+.table-detail thead {
+    background-color: var(--red);
+    color: white;
+}
+.table-detail .header-table {
+    color: var(--red);
+    background-color: var(--light-gray)
+}
+.section-cloud-service .preview-cloud-service .preview-cloud-service-action,
+.section-about-us .preview-cloud-service .preview-cloud-service-action{
+
+    display:flex !important;
+}

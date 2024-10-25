@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>arrow_next</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DỊch-vụ-Cloud" transform="translate(-1298.000000, -1427.000000)">
+            <g id="arrow_next" transform="translate(1322.810610, 1452.075330) scale(-1, 1) translate(-1322.810610, -1452.075330) translate(1298.310610, 1427.575330)">
+                <circle id="Oval" fill="#F4F4F4" cx="24.4248047" cy="24.4248047" r="24.4248047"></circle>
+                <path d="M26.1690471,29.7440168 C26.5512818,30.1321716 26.547217,30.7563905 26.1596618,31.1399952 C25.9726042,31.3247336 25.723727,31.4248047 25.4660012,31.4248047 C25.2039669,31.4248047 24.9511597,31.3212899 24.7633512,31.1310025 L18.8313968,25.1185093 C18.4520732,24.7340843 18.4520732,24.1156346 18.8313745,23.7312321 L24.7629608,17.7191124 C25.1460778,17.3300741 25.7716673,17.326508 26.1600583,17.7101158 C26.547217,18.0933284 26.5512818,18.7175473 26.1687285,19.1060253 L20.921498,24.4248595 L26.1690471,29.7440168 Z" id="Icon" fill="#979797" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

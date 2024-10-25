@@ -1,0 +1,1633 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700&display=swap');
+
+/* import BeauSansPro */
+@font-face {font-family: "BeauSansPro-Black"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-Black.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-BlackItalic"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-BlackItalic.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-Bold"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-Bold.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-BoldItalic"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-BoldItalic.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-Italic"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-Italic.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-Light"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-Light.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-LightItalic"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-LightItalic.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro"; src: url(../../../assets/fonts/beausanspro/BeauSansPro-Regular.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-SemiBold"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-SemiBold.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-SemiBoldItalic"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-SemiBoldItalic.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-Thin"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-Thin.ttf) format('truetype');}
+@font-face {font-family: "BeauSansPro-ThinItalic"; src: url(../../../assets/fonts/beauSansPro/BeauSansPro-ThinItalic.ttf) format('truetype');}
+
+/* import Magistral */
+@font-face {
+    font-family: "Magistral";
+    src: url(../../../assets/fonts/magistral/Magistral-Medium.ttf) format('truetype');
+}
+
+body {
+    font-family: "BeauSansPro", "Sarabun", sans-serif;
+}
+p {
+    font-family: "Sarabun", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600
+}
+
+:root {
+    --light-gray: #efefef;
+    --light-gray-f2: #f2f2f2;
+    --red: #ee0033;
+    --gray: #d8d8d8;
+    --black-text: #606060;
+    --primary: #4199e4;
+    --success: #2cc66d;
+    --background-d3: #d3d3d3;
+    --gray-icon: #c4c4c4;
+    --title: #252525;
+    --content: #383838;
+    --background-service: #eaeaea;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.section-cloud-service .tab-service .tab-service-list li a {
+    font-size: 1rem;
+}
+
+.logo.py-3 {
+    padding: 12px 0;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ee0033;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ee0033;
+    }
+/*menu*/
+.lang-switcher img {
+    left: 5px;
+    top: 0px;
+}
+
+.carousel .carousel-indicators li {
+    width: 25px;
+    height: 0px;
+    border-radius: unset;
+    margin: 0 3px;
+    border: 3px solid #ffffff73;
+}
+
+.language-wrapper {
+    min-width: 42px;
+    width: 42px;
+    height: 42px;
+}
+
+.menudown:after {
+    content: unset;
+}
+
+.section-our-services {
+    background: white;
+}
+
+.section-solutions {
+    padding: 56px 0 86px 0;
+    background: #f5f5f5;
+}
+
+.section-why {
+    padding: 55px 0 67px 0;
+}
+
+    .section-why .why-icon {
+        margin: 0px 0px 12px 0px;
+    }
+
+.menu-root a,
+.free-account .login,
+.footer .footer-block > h5,
+.section-title.blur,
+.section-services .service-group .service-icon a span,
+.section-our-services .section-title, .service-item h4, .service-category-title,
+.card-title.collapsed h4,
+.solution-link-to-service,
+.section-title,
+.footer .footer-info span[itemprop='telephone'], .footer .footer-info span[itemprop='email'],
+.section-trial-desctiption span,
+.section-subscribe .social-links > span,
+.top-nav .lang-switcher {
+    color: var(--title);
+}
+
+.section-services .service-group .service-icon a p,
+.section-subtitle,
+.service-description p,
+.footer .footer-list a,
+.description-solution,
+.solution-des-service,
+.section-content,
+.section-subscribe .subscribe-form label {
+    color: var(--content);
+}
+
+.menu-root:hover > a {
+    color: var(--red);
+}
+
+
+
+/*Trang chu*/
+.search-form-header input {
+    background: #f2f2f2;
+    border-radius: 4px;
+}
+
+.section-subscribe .subscribe-form #your-email, .section-subscribe .subscribe-form .btn-submit {
+    height: 50px;
+}
+
+.footer .certificate-wrapper .slick-prev i, .footer .certificate-wrapper .slick-next i, .footer .certificate-brand-wrapper .slick-prev i, .footer .certificate-brand-wrapper .slick-next i {
+    font-size: 30px;
+}
+
+.section-trial {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .certificate-wrapper .slick-prev, .footer .certificate-wrapper .slick-next, .footer .certificate-brand-wrapper .slick-prev, .footer .certificate-brand-wrapper .slick-next {
+    display: unset !important;
+}
+
+.footer .certificate-wrapper .slick-prev, .footer .certificate-brand-wrapper .slick-prev {
+    left: -35px;
+}
+
+body.home-page .home-header .top-nav.darkHeader, body.home-page .home-header .top-nav.clearHeader,
+.top-nav.no-bg.darkHeader, .top-nav.no-bg.clearHeader, .top-nav {
+    /*    background-color: white;*/
+    /*    background: white;*/
+    box-shadow: 0 10px 20px rgb(40 50 100 / 5%);
+    height: 75px;
+}
+
+.footer {
+    background-color: var(--light-gray);
+    background: var(--light-gray);
+}
+
+    .footer .footer-list a {
+        font-size: 12px;
+    }
+
+.section-solutions {
+    min-height: unset;
+}
+
+.partner-img {
+    margin: 30px 0 25px 0px;
+}
+
+.footer .icon-arrow_prev::before {
+    content: "";
+    background: url(/Themes/itmetech/img/svg/back.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    top: 40%;
+}
+/*.footer .certificates .certificate-block {
+    text-align: center;
+}
+
+    .footer .certificates .certificate-block a, .footer .certificates .certificate-block img {
+        display: inline-block;
+    }*/
+.footer .icon-arrow_next::before {
+    content: "";
+    background: url(/Themes/itmetech/img/svg/next.svg);
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+.slick-prev.pull-left.slick-arrow, .slick-next.pull-right.slick-arrow {
+    top: 40%;
+    opacity: 0.5;
+}
+
+.slick-next.pull-right.slick-arrow {
+    right: -40px;
+}
+
+    .slick-prev.pull-left.slick-arrow:hover, .slick-next.pull-right.slick-arrow:hover {
+        opacity: 1;
+    }
+
+.btn-transparent.btn-view-more.my-3:hover,
+.news-detail a:hover {
+    color: #ee0033;
+}
+
+.btn-transparent.btn-trailer:hover {
+    border-color: var(--red);
+}
+
+.footer .footer-info .footer-logo {
+    margin-bottom: unset;
+}
+
+    .menu-left li a.telephone,
+    .icon-home-01:before,
+    .section-services .service-group .service-icon .hover-status a,
+    .home-page .nav-tabs.vt-tabs li a:hover,
+    .section-customers .section-content,
+    .footer .footer-info .footer-logo span,
+    .footer-bottom .copyright-text,
+    .footer-bottom .footer-menu li a {
+        color: var(--black-text);
+    }
+
+
+.d-lg-inline-block {
+    color: var(--title);
+}
+
+.section-cloud-service .tab-service .tab-switcher, .section-about-us .tab-service .tab-switcher,
+.tab-switcher .vt-icon {
+    color: var(--black-text) !important;
+}
+
+.user-name-dropdown .user-dropdown:focus,
+.user-name-dropdown .user-dropdown {
+    background: var(--black-text) !important;
+}
+
+    .user-name-dropdown .user-dropdown:active, .user-name-dropdown .user-dropdown:hover,
+    .user-name-dropdown .user-dropdown {
+        background: var(--red) !important;
+    }
+
+.top-nav .dropdown-menu li a:hover {
+    background: var(--red) !important;
+}
+
+.user-name-dropdown .user-dropdown .user-dropdown-wrapper a:hover {
+    background: unset;
+    background-color: unset;
+}
+
+.container-fluid {
+    padding: 0 60px;
+}
+
+.menu-social ul li a:hover {
+    color: var(--red);
+    border: solid 1px var(--red);
+}
+
+.section-why,
+.section-stat {
+    background: var(--red);
+}
+
+.dropdown.dropdown-discount .dropdown-menu {
+    top: 46px;
+    left: -40px;
+}
+
+.section-why .section-title {
+    color: white;
+}
+
+.section-stat .stat-item .num, .section-stat .stat-item .text, .section-why .why-icon p {
+    color: white;
+    opacity: unset;
+    text-align: left;
+    margin: unset;
+}
+
+.section-why .why-icon {
+    color: white;
+    opacity: unset;
+    text-align: left;
+}
+
+.badge.badge-success,
+.section-subscribe .subscribe-form .btn-submit:hover,
+.section-subscribe .subscribe-form .btn-submit,
+.section-cloud-service .tab-service .tab-switcher:after, .section-about-us .tab-service .tab-switcher:after {
+    background-color: var(--red);
+    background: var(--red);
+}
+
+.section-solutions .nav-tabs.vt-tabs li a:hover:after, .section-solutions .nav-tabs.vt-tabs li a.active:after {
+    background-color: var(--red);
+    background: var(--red);
+}
+
+.nav-tabs.vt-tabs li a:hover:after, .nav-tabs.vt-tabs li a.active:after {
+    background-color: #cccccc;
+    background: #cccccc;
+}
+
+.service-block .service-content .service-col .service-item:hover {
+    background-color: var(--light-gray-f2);
+    background: var(--light-gray-f2);
+}
+
+    .service-block .service-content .service-col .service-item:hover h5, .service-block .service-content .service-col .service-item:hover p {
+        color: var(--black-text);
+    }
+
+.menu-left li a.highlight, .section-our-services .products-line .product-container:hover .vt-icon,
+.card.card-solution .view-more-detail,
+.section-customers .view-more,
+.btn-transparent.btn-trailer:hover,
+.section-subscribe .social-links .social-link:hover i,
+.footer .footer-info span[itemprop='telephone'] a, .footer .footer-info span[itemprop='email'] a,
+.footer .footer-info span[itemprop='telephone'] a:hover, .footer .footer-info span[itemprop='email'] a:hover,
+.partners a:hover,
+.menu-social ul li a:hover i,
+.footer .footer-list a:hover,
+.home-page .nav-tabs.vt-tabs li a.active,
+.home-page .nav-tabs.vt-tabs li a.active:after,
+.vt-icon.icon-refresh,
+#registerForm a, #registerForm a:hover,
+.btn-transparent.btn-view-more:hover,
+.free-account .login:hover,
+.automation-notify-wrapper-table .table-scroll .config-action:hover i,
+.top-nav.user-nav .menu-right > ul > li a:not(.dropdown-item),
+.hot-support .hot-news-item .news-content-title .vt-icon {
+    color: var(--red);
+}
+
+dropdown-item text-overflow-drop:hover a:not(.dropdown-item) {
+    color: white !important;
+}
+
+.support-send-contact .btn-viettel.orange {
+    border-color: var(--red);
+}
+
+.btn-manipulation.blue, .automation-notify-wrapper-table .table.table-automation-notify tr th, .btn-manipulation.blue:hover, .btn-manipulation.orange, .btn-manipulation.orange:hover,
+.partner-dialog .input-file .file-label.blue, .recruitment-form .input-file .file-label.blue, .qr-code-form .input-file .file-label.blue,
+.btn-request,
+.guide-info:before, .online-pay-content-guide-info:before, .offline-pay-content-guide-info:before {
+    background-color: var(--red);
+}
+
+.carousel-item {
+    cursor: pointer;
+}
+
+.home-page .nav-tabs.vt-tabs li:hover {
+    color: var(--gray);
+}
+
+.slider-text {
+    display: flex;
+}
+
+    .slider-text .align-middle {
+        margin: auto;
+    }
+
+.home-page .nav-tabs.vt-tabs li a, .home-page .nav-tabs.vt-tabs li a:after {
+    color: var(--black-text);
+    opacity: 0.95;
+}
+
+.section-services:before {
+    background-color: #f5f5f5;
+}
+
+.section-services .service-group .service-icon .hover-status {
+    background: var(--light-gray);
+    opacity: 0.75;
+}
+
+.section-services .service-group .service-icon a span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-services .service-group a:hover > span {
+    color: var(--red);
+}
+
+.section-services .service-group .service-icon .default-status {
+    padding: 15px 20px;
+}
+
+.card.card-solution h4 {
+    font-size: 1.1rem;
+}
+
+.card.card-solution .card-title {
+    padding: 0 10px;
+}
+
+.card.card-solution .service-item-solution a {
+    color: var(--black-text);
+}
+
+    .card.card-solution .service-item-solution a:hover {
+        color: var(--red);
+    }
+/*.section-services .service-group .service-icon:hover .default-status a {
+    filter: blur(8px);
+}*/
+.section-services .service-group .service-icon .default-status:after, .section-services .service-group:after {
+    background-color: #ccc;
+    /*    opacity: 0.7;*/
+}
+
+.section-services .service-group .service-icon:last-child .default-status:after {
+    display: none;
+}
+
+.section-our-services .agency-list-load-more:hover,
+.btn-transparent.btn-trailer,
+.menu-social ul li a {
+    background-color: var(--red);
+    border: solid 1px var(--red);
+}
+
+.home-page .nav-tabs.vt-tabs li a:hover:after, {
+    background-color: var(--black-text);
+}
+
+.section-subscribe .social-links .social-link {
+    background-color: var(--red);
+}
+
+    .section-subscribe .social-links .social-link:hover {
+        border: 1px solid var(--red);
+    }
+
+.footer .footer-info .footer-logo img {
+    width: 170px;
+    margin-bottom: 25px;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--gray);
+    background-color: var(--gray);
+}
+
+body.menu-opened .top-nav.clearHeader:after, body.menu-opened .top-nav.darkHeader:after {
+    background: rgb(56 56 56 / 95%)
+}
+
+.top-nav.user-nav .menu-right .dropdown .dropdown-toggle::after {
+    color: var(--black-text);
+}
+
+
+/*Trang dich vu*/
+.btn-viettel.orange, .btn-action.orange {
+    background-color: white;
+    border: solid 1px var(--red);
+    color: var(--red);
+}
+
+    .btn-action.orange:hover {
+        background-color: var(--red);
+        border: solid 1px white;
+        color: white;
+    }
+
+    .btn-action.orange.full-width.mt-4, .btn-action.orange.full-width.mt-4:hover {
+        color: white;
+        background: var(--red);
+    }
+.btn-action.banner {
+    background-color: white;
+    border: 1px solid white;
+    color: var(--title);
+    margin-bottom: 0;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 6px;
+    border-radius: 8px
+}
+
+    .btn-action.banner:hover {
+        background-color: var(--red);
+        border: solid 1px white;
+        color: white;
+    }
+
+    .btn-action.banner.advise {
+        color: var(--white);
+        border:none;
+    }
+
+        .btn-action.banner.advise:hover {
+            color: var(--white)
+        }
+
+.grid-wrapper .grid-service-list .item .item-price,
+.grid-wrapper .grid-service-list .item .item-note,
+.grid-wrapper .grid-service-list .item .item-action,
+.grid-wrapper .grid-service-list .item .item-note.hide-item {
+    background-color: var(--background-d3);
+}
+
+.btn-viettel:hover {
+    color: var(--red) !important;
+    border: solid 1px var(--red) !important;
+}
+
+.btn-viettel.orange.custom:hover {
+    color: white !important;
+    border: solid 1px white !important;
+    background-color: transparent !important;
+}
+
+.btn-viettel.orange.custom {
+    color: white;
+    border: solid 1px white;
+    background-color: transparent;
+}
+
+.section-cloud-service .tab-service .tab-service-list li a {
+    color: var(--title);
+}
+
+    .section-cloud-service .tab-service .tab-service-list li a.active, .section-cloud-service .tab-service .tab-service-list li a:hover {
+        color: white;
+    }
+
+.section-cloud-service .tab-service {
+    background-color: #f6f7f8;
+}
+
+.section-about-us .tab-service,
+.list-service-wrapper .list-service .table-performance-list tbody tr:nth-child(odd),
+.list-service-wrapper .list-service .double-list-wrapper .item-category .item-block:nth-child(odd) {
+    background-color: rgb(239 239 239 / 55%);
+}
+
+    .section-about-us .tab-service .tab-service-list li a.active, .section-about-us .tab-service .tab-service-list li a:hover {
+        background-color: var(--red);
+        opacity: 0.85;
+    }
+
+.partner-dialog .input-file .file-label, .recruitment-form .input-file .file-label, .qr-code-form .input-file .file-label,
+.section-cloud-service .tab-service .tab-service-list li a.active, .section-cloud-service .tab-service .tab-service-list li a:hover {
+    background-color: var(--red);
+}
+
+.nav-tabs.vt-tabs li a:hover:after {
+    background-color: var(--red);
+}
+
+.list-service-wrapper .list-service .grid-list .item .item-note, .cloud-service-content .tab-review .table-performance-list thead tr th {
+    background-color: var(--red);
+}
+
+.list-service-tab li a:hover, .list-service-tab li a.active {
+    color: var(--red);
+    border: solid 2px var(--red);
+}
+
+.list-service-wrapper .list-service .list-service-type-tab li a:hover,
+.list-service-wrapper .list-service .list-service-type-tab li a.active,
+.list-service-wrapper .list-service .grid-list .item .item-price,
+.list-service-wrapper .list-service .grid-list .item .item-note.hide-item,
+.list-service-wrapper .list-service .table-performance-list thead tr th,
+.list-service-wrapper .list-service .double-list-wrapper .double-list .item .item-block.item-price,
+.btn-request.orange, .btn-request.orange:hover,
+.bootstrap-select .dropdown-item.active, .bootstrap-select .dropdown-item:active,
+.menu-icon .cart-amount,
+.cloud-service-content .accordion-question .card-header h2 button .border-left-toggle, .cloud-service-content .accordion-question .card-header h1 button .border-left-toggle, .cloud-service-content .accordion-question .card-header-title button .border-left-toggle,
+.cloud-service-content .accordion-question .card-header h2 button, .cloud-service-content .accordion-question .card-header h1 button, .cloud-service-content .accordion-question .card-header-title button,
+.cloud-service-content .tab-review .table-performance-list tbody tr td.title-row,
+.section-solutions-service .nav-tabs.vt-tabs li .nav-link:hover:after, .section-solutions-service .nav-tabs.vt-tabs li .nav-link.active:after {
+    background-color: var(--red);
+}
+
+.cloud-service-content .btn-view-more-question, .cloud-service-content .btn-view-more-question:hover {
+    margin-top: 10px;
+    color: var(--red);
+}
+
+.nav-tabs.wizard-tabs .nav-link.active .step-icon, .nav-tabs.wizard-tabs .nav-link.old .step-icon {
+    background: var(--red);
+}
+
+.table.summarise .item-name-group {
+    background: var(--black-text);
+}
+
+.table.cart-table .item-name-group {
+    background: var(--red);
+}
+
+.btn-action.green:hover, .btn-action.green,
+.coupon-form .btn-submit {
+    background-color: var(--red);
+    border: 1px solid var(--red);
+}
+
+.custom-checkbox input:checked + .checkbox-check {
+    border-color: var(--red);
+    background-color: var(--red);
+}
+
+.custom-checkbox a, .text-green,
+.card-cart .price-total .price,
+.table-responsive.table-scroll.full-size a {
+    color: var(--red);
+}
+
+.custom-radio input:checked + .radio-check {
+    border-color: var(--red);
+}
+
+    .custom-radio input:checked + .radio-check:after {
+        background: var(--red);
+    }
+
+.nav-tabs.vt-tab .nav-link.active, .nav-tabs.info-tabs .nav-link.active,
+.cloud-service-content .accordion-question .card-header h2 button.collapsed:before, .cloud-service-content .accordion-question .card-header h1 button.collapsed:before, .cloud-service-content .accordion-question .card-header-title button.collapsed:before,
+.cloud-service-content .accordion-question .card-header h2 button.collapsed:after, .cloud-service-content .accordion-question .card-header h1 button.collapsed:after, .cloud-service-content .accordion-question .card-header-title button.collapsed:after {
+    color: var(--red);
+}
+
+.related-products .related-products-title,
+.related-products .related-products-wrapper .related-products-name,
+.top-nav .dropdown-discount .dropdown-toggle {
+    color: var(--black-text);
+}
+
+.related-products {
+    background-color: unset;
+}
+
+/*Trang quan ly dich vu*/
+
+.btn-dashboard.orange,
+.table.summarise.blue tr.item-name-group td, .table.cart-table.blue tr.item-name-group td {
+    background-color: var(--light-gray);
+}
+
+.pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
+    color: var(--red);
+}
+
+.automation-notify-wrapper-table .table.table-automation-notify-detail tr th,
+.table.summarise.blue tr th, .table.cart-table.blue tr th {
+    background-color: var(--black-text);
+}
+
+/*Bang gia*/
+
+.cloud-service-content.blue {
+    background: url(./../img/backgound/background-contact.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.request-form .input-file .file-label.blue:hover, .request-form .input-file .file-label.blue {
+    background-color: var(--red);
+}
+
+/*Tin tuc*/
+.news-list .news-head-wrapper .news-content .news-view-more, .news-list .news-head-wrapper .news-content .news-view-more i {
+    color: var(--red);
+}
+
+.news-list .news-wrapper .news-content-title a:hover,
+.news-detail .social-links-detail .social-link:hover i,
+.news-detail .news-detail-wrapper .news-detail-body .news-share-social .social-link:hover i,
+.news-detail .hot-news .hot-news-item .news-content-title a:hover {
+    color: var(--red);
+}
+
+.news-detail .social-links-detail .social-link:hover,
+.news-detail .news-detail-wrapper .news-detail-body .news-share-social .social-link:hover {
+    border-color: var(--red);
+}
+
+.swal2-modal button.swal2-confirm, .swal2-modal button.swal2-confirm:hover {
+    background-color: var(--red) !important;
+    border-color: var(--red) !important;
+}
+
+/*Mega menu*/
+.megamenu ul li ul {
+    background: var(--light-gray);
+}
+
+.megamenu.view-desktop > ul > li {
+    background: var(--gray);
+}
+
+    .megamenu.view-desktop > ul > li.has-sub.open {
+        background: var(--black-text);
+    }
+
+.megamenu ul {
+    background: var(--gray);
+}
+
+.megamenu.view-desktop > ul > li.has-sub.open a, .megamenu.view-desktop > ul > li > a {
+    color: black;
+}
+
+.megamenu.view-desktop > ul > li > ul > li.has-sub.open ul li a:hover {
+    color: black;
+}
+
+/*login*/
+
+.auth-card .form-group .form-control-icon {
+    color: var(--black-text);
+}
+
+/*AboutUs*/
+.about-us-success-wrapper .about-us-success .about-us-success-block .about-us-success-item,
+.tab-review-service ul li:after,
+.item.slick-slide.slick-active .item-detail a,
+.vtChoose-tab .card .card-header .btn-link,
+.vtChoose-tab .card .card-header .btn-link:after {
+    color: var(--red);
+}
+
+.vt-feature-wrapper .vt-feature .item .item-title:after {
+    background-color: var(--red);
+}
+
+/*Support*/
+.search-section-form .input-group .input-group-text,
+.search-result-section .nav-tabs.search-result-tabs li a.active:after {
+    background-color: var(--red);
+}
+
+.support-section .support-tab .tab-service-list li a.active,
+.support-section .support-detail .accordion .card-body ul li a,
+.support-section .support-detail .accordion .card-header .btn-link:hover,
+.support-section .support-detail .accordion .card-header .btn-link:after,
+.support-section .support-detail .accordion .card-header h2:hover a,
+.map-item a {
+    color: var(--red);
+}
+
+.automation-notify-wrapper-body .input-file .file-label.blue {
+    background-color: var(--red)
+}
+
+.agency-list .agency-list-item:hover .agency-list-info {
+    background-color: rgb(218 0 51 / 70%)
+}
+
+.agency-list .agency-list-item {
+    border-color: rgb(238 0 51 / 80%)
+}
+
+    .agency-list .agency-list-item:hover img {
+        filter: blur(8px);
+    }
+
+.news-list .news-head-wrapper .news-content-title:hover a {
+    color: var(--red);
+}
+
+.agency-policy {
+    background: url(./../img/backgound/background-daily.png) no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: var(--red);
+}
+
+.agency-policy .agency-policy-title {
+    color: var(--black-text);
+}
+
+.agency-policy .agency-policy-item-title,
+.agency-policy .agency-policy-item-description,
+.table.summarise.blue tr.item-name-group td, .table.cart-table.blue tr.item-name-group td,
+#myTabContent a,
+.footer-bottom .footer-menu li a:hover {
+    color: var(--red);
+}
+
+.card-service {
+    box-shadow: 0 10px 12px rgb(39 52 125 / 22%);
+}
+
+/*Trang ca nhan*/
+.dashboard-summary .user-name,
+.dashboard-summary .user-block ul.user-info li p,
+.dashboard-summary .user-block ul.user-info li .vt-icon.icon-icn_mail,
+.dashboard-summary .user-block ul.user-info li .vt-icon.icon-icn_mobile,
+.dashboard-summary .user-text,
+.user-name-dropdown .user-dropdown .user-dropdown-wrapper a {
+    color: white;
+}
+
+#PriceDashboard .btn-request.orange {
+    background-color: white;
+    color: red
+}
+
+.search-result-section .nav-tabs.search-result-tabs li a:hover:after {
+    background-color: var(--gray);
+}
+
+.top-nav.user-nav .megamenu.view-desktop > ul {
+    margin-left: -15px;
+    margin-top: 19px;
+}
+
+/*Quan ly dich vu*/
+#sendTicket .btn-request.blue {
+    background-color: var(--red);
+}
+
+.top-nav .promotion .dropdown-menu li a:hover {
+    background: #d1d1d1 !important;
+}
+
+.card.user-card .nav-tabs.service-tabs .nav-link.active, .card.user-card .nav-tabs.service-tabs .nav-link:hover, .card.user-card .nav-tabs.service-tabs .nav-link:focus,
+.container-custom .btn-request {
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+.dashboard-summary .stat.service, .dashboard-summary .stat.active, .stat-label {
+    color: white;
+}
+
+.support-line .text-orange, .dashboard-summary .stats .stat.due, .recharge-list .recharge-item .custom-radio {
+    color: var(--red);
+}
+
+.automation-notify-wrapper-table .table.table-recharge tr th {
+    background-color: var(--red);
+}
+
+.section-cloud-service .tab-service a {
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .link-view-desktop {
+        display: none;
+    }
+
+    .section-why .why-icon, .section-why .why-icon p {
+        text-align: center;
+        margin: auto;
+    }
+
+    .subscribe-form > div > div, .section-subscribe .social-links, .section-subscribe .social-links span {
+        text-align: center !important;
+    }
+
+    .section-subscribe .subscribe-form #your-email {
+        max-width: 100% !important;
+    }
+    .section-title{
+        padding: 0 30px;
+    }
+}
+
+.card-cart {
+    font-family: unset;
+}
+
+.guide-info1:before {
+    background-color: #e03;
+}
+
+.coupon-form .btn-submit:hover {
+    transition: 0.2s;
+    background-color: #666;
+    border-color: #666;
+}
+
+.list-service-wrapper .list-service .table-performance-list tbody tr td .item-action .btn-action.orange {
+    color: #e03;
+    border: 1px solid;
+}
+
+    .list-service-wrapper .list-service .table-performance-list tbody tr td .item-action .btn-action.orange:hover {
+        color: #fff;
+        border-color: #e03;
+    }
+
+.news-detail .news-detail-wrapper .news-detail-body .news-keyword .key-item:hover {
+    background-color: #e03;
+}
+
+.slider-handle {
+    background-image: linear-gradient(to bottom, #e03 0%, #e03 100%) !important;
+}
+
+.slider.slider-horizontal .slider-track .slider-selection {
+    background-color: #e03;
+}
+
+.section-cloud-service .search-service-domain .form-group .menu-search-text {
+    background: #e03;
+}
+
+.section-cloud-service .search-service-domain .form-group .menu-search-icon, .section-wrapper .inner-wrapper-sticky .search-service-domain .form-group .menu-search-icon {
+    background-color: #fff;
+    border: 1px solid #eee;
+    top: -1px;
+    height: 56px;
+}
+
+.btn-request.full.text-center #number-step {
+    line-height: 27px;
+}
+
+.search-service-domain .row .btn-request:hover {
+    transition: 0.5s;
+    background-color: #666;
+}
+
+.package-instance-row.form-domain.input-group-text {
+    background-color: #e03;
+    color: white;
+    border-color: #e03;
+}
+
+button.close {
+    z-index: 2;
+}
+
+#subscribeModal #span_email {
+    color: #e03;
+}
+
+.footer {
+    font-family: unset;
+}
+
+    .footer .footer-block {
+        font-family: inherit;
+    }
+
+        .footer .footer-block h5 {
+            font-family: inherit;
+        }
+    .footer .footer-list {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 300;
+    }
+    .footer .footer-list a {
+        font-family: inherit;
+    }
+
+.footer-bottom .footer-menu li a {
+    font-family: inherit;
+}
+
+.footer-bottom .copyright-text {
+    font-family: inherit;
+}
+
+.section-subscribe .social-links span {
+    font-family: "BeauSansPro", "Sarabun", sans-serif;
+    font-weight: 600
+}
+
+body.home-page .home-header {
+    background-color: #fff;
+}
+
+section.section-cloud-service {
+    background-color: #fff;
+}
+
+.section-services .service-group {
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .cart-page {
+        padding-top: 0px;
+    }
+}
+
+.list-service-wrapper .list-service .table-performance-list tbody tr td .item-action .btn-action.orange {
+    border: 1px solid #e03;
+    color: #e03;
+}
+
+    .list-service-wrapper .list-service .table-performance-list tbody tr td .item-action .btn-action.orange:hover {
+        color: #fff;
+    }
+
+#btnSave {
+    background-color: #e03;
+    border: 1px solid #e03;
+}
+
+#changePassModal .modal-footer button.btn-request[data-dismiss="modal"] {
+    background-color: #eee;
+    color: #000;
+}
+
+#uploadFileModal button.btn-request[data-dismiss="modal"] {
+    background-color: #eee;
+    color: #000;
+}
+
+.nav-tabs.vt-tabs.info-tabs li a.active {
+    color: #e03;
+}
+
+.package-instance-row.form-domain .input-group-text {
+    background-color: #e03;
+}
+
+    .package-instance-row.form-domain .input-group-text .vt-icon {
+        color: #fff !important;
+    }
+
+.storage-service-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 39px;
+    /* identical to box height, or 197% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.storage-service-item {
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0;
+    vertical-align: middle !important;
+}
+
+.storage-price {
+    color: #EE0033;
+    font-weight: bold;
+    border: none;
+}
+
+.storage-info-col {
+    color: #222;
+    border-right: 0.5px solid #DFDFDF;
+    background-color: #EE0033;
+    color: white;
+    line-height: 20px;
+    height: 50px;
+    max-height: 60px;
+}
+
+.gradient-border {
+    background: linear-gradient(#EE0033, #EE0033) padding-box, /*this is your grey background*/
+    linear-gradient(to bottom, #FF8C8C, #FED0C6) border-box;
+    border: 1px solid;
+    border-radius: 4px;
+    border-image-source: linear-gradient(181.72deg, rgba(255, 140, 140, 0.5) 23.54%, rgba(254, 208, 198, 0.2) 84.81%);
+    /*display: inline-block;*/
+    box-shadow: 0px 4px 10px 0px #ffe7e7;
+}
+
+.storage-info-title {
+    color: #222 !important;
+    font-size: 22px !important;
+    text-transform: uppercase;
+}
+
+.person-img-element {
+    width: 120%;
+    height: 150%;
+    position: relative;
+    top: -5%;
+    left: 10%;
+    background-image: url(../../../Themes/itmetech/img/person-cloudstorage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.storage-btn {
+    font-weight: 700 !important;
+    font-size: 1.2rem
+}
+
+.customStorageSize {
+    font-size: 16px !important;
+}
+
+.icon-setting {
+    background: url(../../../Themes/itmetech/img/svg/setting.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 1em;
+    width: 1.1em;
+}
+
+.icon-key {
+    background: url(../../../Themes/itmetech/img/svg/key.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 1em;
+    width: 1.1em;
+}
+
+.color-red {
+    color: red !important;
+}
+
+.verticalTableHeader {
+    text-align: center;
+    white-space: nowrap;
+    transform-origin: 50% 50%;
+    transform: rotate(270deg);
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    letter-spacing: 0.5px;
+}
+
+.row_span_table {
+    position: relative;
+    width: 7%;
+}
+
+.tr_center_height td:not(.row_span_table) {
+    vertical-align: inherit;
+}
+
+.verticalTableHeader:before {
+    content: '';
+    padding-top: 100%;
+    /*    display: inline-block;*/
+    vertical-align: middle;
+}
+
+
+.table-service-small {
+    width: 80%;
+    font-size: 16px;
+    margin: auto;
+}
+
+    .table-service-small th p, .table-service-small tr p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .table-service-small tr td {
+        height: 0%;
+        padding: 0.4rem 0.75rem;
+    }
+
+/*    text hiển thị xem thêm*/
+.txtSeeMore a:hover {
+    color: red !important;
+}
+
+.txtSeeMore svg {
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-left: 4px;
+}
+
+.txtSeeMore {
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+#detailAttention {
+    margin-left: 15.4%;
+}
+
+    #detailAttention ul {
+        list-style: disc !important;
+        margin-left: 9%;
+    }
+
+.list-service-wrapper .list-service .grid-list .item .item-action.one-item {
+    min-height: 8.35rem;
+}
+/** Css color and background for page orderdetail **/
+.table-detail thead {
+    background-color: var(--red);
+    color: white;
+}
+
+.table-detail .header-table {
+    color: var(--red);
+    background-color: var(--light-gray)
+}
+
+.card-body span, .table-storage .tr-tab-content {
+    font-family: "Sarabun", sans-serif;
+}
+
+.section-cloud-service .preview-cloud-service .preview-cloud-service-action,
+.section-about-us .preview-cloud-service .preview-cloud-service-action {
+    display: flex !important;
+}
+
+/*15 nam*/
+/*.section-why{
+    background-color: #fff;
+}
+    .section-why .section-title{
+        color:#000;
+    }
+    .section-why .why-icon, .section-why .why-icon p {
+        color: #000;
+    }
+    .section-why .red {
+        color: var(--red);
+        display: inline-block;
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .section-why .red-title {
+        display: inline-block;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+    }*/
+
+.section-partner {
+    background: url("/Themes/itmetech/img/backgound/bg-partner.png") top left no-repeat;
+    background-size: cover;
+}
+
+.partner-img {
+    margin: 5px 0 25px 0px;
+}
+
+.partner-img .box-img {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.box-img img {
+    height: 64px;
+    max-width: 198px;
+}
+
+.section-trial {
+    background-color: #fff;
+}
+
+    .section-trial .box-trial {
+        background-color: var(--red);
+        padding: 40px 0px;
+    }
+
+.section-trial-desctiption span {
+    color: #fff;
+}
+
+.section-trial .btn-transparent.btn-trailer {
+    background-color: #fff;
+    color: var(--red);
+}
+
+/*new service info*/
+.service-common {
+    /*margin-bottom: 25px;*/
+}
+.service-common .service-pack-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+    .service-common .service-pack-status {
+        margin-left: 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        background-color: #FAAD14;
+        padding: 10px 20px;
+        color:#fff;
+    }
+        .service-common .service-pack-status.active {
+            background-color: #52C41A;
+        }
+    .service-common div:last-child {
+        text-align:right;
+    }
+
+    .service-common .service-time-title {
+        font-weight: bold;
+    }
+
+    .service-common .service-time {
+        border: 1px solid #ccc;
+        padding: 10px 15px;
+        font-size: 14px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+.service-table .th-table {
+    width: 100%;
+    background-color: #e5e5e5;
+    color: var(--title);
+    padding: 10px 15px;
+    display: inline-block;
+    /*text-align: center;*/
+    border-right: 1px solid #f2f2f2;
+    font-weight:600;
+}
+
+.service-table .td-table {
+    width: 100%;
+    padding: 10px 15px;
+    display: inline-block;
+    /*text-align: center;*/
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    min-height: 45px;
+}
+
+.service-table .col-table:first-child .td-table {
+    border-left: 1px solid #ccc;
+}
+.td-table label {
+    margin-bottom: 0px;
+}
+.td-table span {
+    word-break: break-word;
+}
+
+.service-summary {
+}
+
+.service-table {
+    /*width:3000px;*/
+}
+.service-table .col-table {
+    width: 216px;
+}
+.table-scroll .btn-request {
+    padding: 10px 20px;
+}
+
+.attribute-table th {
+    background-color: #e5e5e5;
+    color: var(--title);
+    padding: 10px 15px;
+    border-right: 1px solid #f2f2f2;
+}
+
+.attribute-table td {
+    padding: 10px 15px;
+    border-right: 1px solid #ccc;
+}
+
+.attribute-table tr td:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.attribute-table tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+
+.service-info p {
+    font-weight: bold;
+}
+
+.service-pack-action {
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    text-transform: none;
+    position: relative;
+}
+
+    .service-pack-action .box-title {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 5px 15px;
+        display: block;
+        width: 190px;
+        text-align: center;
+        margin-top: -5px;
+    }
+
+        .service-pack-action .box-title .title {
+            color: var(--content);
+        }
+
+        .service-pack-action .box-title:hover {
+            cursor: pointer;
+        }
+
+    .service-pack-action .title:hover {
+        color: var(--red);
+    }
+
+    .service-pack-action .title::after {
+        content: ' \e006';
+        margin-left: 10px;
+        font-size: 8px;
+        font-family: 'VTIcons';
+        vertical-align: middle;
+        font-weight: bold;
+        display: inline-block;
+        transform: rotate(90deg);
+    }
+
+    .service-pack-action.show .title::after {
+        transform: rotate(270deg);
+    }
+
+    .service-pack-action .ul-action {
+        position: absolute;
+        top: 25px;
+        right: 0;
+        padding: 0px 15px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        background-color: #fff;
+        width: 200px;
+        border-radius: 5px;
+        z-index: 999;
+        display: none;
+    }
+
+    .service-pack-action.show .ul-action {
+        display: block;
+    }
+
+    .service-pack-action .ul-action .vt-icon {
+        margin-right: 5px;
+    }
+
+    .service-pack-action .ul-action li {
+        padding: 5px 0px;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .service-pack-action .ul-action li:last-child {
+            border: none;
+        }
+
+        .service-pack-action .ul-action li a {
+            color: var(--content);
+            font-weight: normal;
+        }
+
+            .service-pack-action .ul-action li a:hover {
+                color: var(--red);
+            }
+
+            .service-pack-action .ul-action li a .vt-icon {
+                filter: brightness(0) saturate(100%) invert(13%) sepia(0%) saturate(14%) hue-rotate(225deg) brightness(93%) contrast(74%);
+            }
+
+            .service-pack-action .ul-action li a:hover .vt-icon {
+                filter: brightness(0) saturate(100%) invert(14%) sepia(84%) saturate(5584%) hue-rotate(340deg) brightness(89%) contrast(113%);
+            }
+
+.box-scroll-x {
+   /* overflow-x: scroll;*/
+}
+
+    .box-scroll-x::-webkit-scrollbar {
+        height: 10px;
+    }
+
+.td-table input.form-control {
+    height: 24px;
+}
+.btn-manipulation.blue{
+    border-radius:4px;
+}
+.list-action {
+    margin-bottom: 10px;
+}
+.list-action-top {
+    margin-top: 15px;
+}
+.automation-notify {
+    padding: 20px 0;
+}
+.automation-notify-wrapper-body-item h3 {
+    font-weight: 600;
+}
+.breadcrumb-service {
+    padding: 0;
+    background-color: transparent;
+}
+    .breadcrumb-service .breadcrumb-item,
+    .breadcrumb-service .breadcrumb-item:hover,
+    .breadcrumb-service .breadcrumb-item::before {
+        color: #787878;
+    }
+    .breadcrumb-service .breadcrumb-item:last-child{
+        font-weight:500;
+        color:#383838;
+    }
+.automation-notify-wrapper-head .service-common{
+    text-transform:none;
+    font-weight:normal;
+}
+.automation-notify-wrapper-body.automation-notify-wrapper-table th:last-child,
+.automation-notify-wrapper-body.automation-notify-wrapper-table tr td:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.automation-notify-wrapper-body.automation-notify-wrapper-table th {
+    background-color: #e5e5e5;
+    color: var(--title);
+    border-right: 1px solid #f2f2f2;
+}
+/*trang chu*/
+.section-title {
+    font-family: "BeauSansPro", "Sarabun", sans-serif;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    color: #595959;
+    font-family: "Sarabun", "roboto", sans-serif;
+    font-weight: 400;
+}
+
+.service-item h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.service-description p {
+    color: #595959;
+}
+
+/*.service-category-title {
+    font-size: 18px;
+    font-weight: 600;
+}*/
+.section-services .service-group .service-icon a p {
+    font-weight: 400;
+    color: #595959;
+}
+
+.footer-bottom .copyright-text,
+.footer-bottom .footer-menu li a {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.payment-block {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.certificate-brand-wrapper .certificate-block {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    min-height: 39px;
+    text-align: center;
+}
+
+    .certificate-brand-wrapper .certificate-block img {
+        max-height: 39px;
+    }
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+/* menu service*/
+@media (max-width: 1500px) {
+    .top-nav .menu-left .home-link,
+    .top-nav .menu-left .btn-action .icon-icn_money {
+        display: none;
+    }
+}

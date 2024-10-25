@@ -1,0 +1,35 @@
+.breadcrumb-wrapper {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: white;
+
+  .breadcrumb {
+    position: relative;
+    padding: 30px 0 15px;
+    background-color: white;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+
+    .breadcrumb-item {
+      font-size: 14px;
+      color: #353638;
+      font-family: $font-cabin;
+
+      a {
+        font-size: 14px;
+        color: #353638;
+      }
+    }
+  }
+
+  &.transparent {
+    background-color: transparent;
+
+    .breadcrumb {
+      background-color: transparent;
+      margin-bottom: 0;
+      padding: 35px 0 15px;
+    }
+  }
+}

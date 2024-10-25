@@ -1,0 +1,132 @@
+﻿/*Index*/
+.tab-content {
+    width: 100%;
+}
+
+.bundle-item {
+    border-radius: 20px;
+    background-color: #e03;
+}
+
+    .bundle-item .bundle-title {
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bundle-item .bundle-body {
+        background-color: #fff;
+        border-radius: 20px;
+        border: 1px solid #e03;
+        text-align: center;
+    }
+
+.bundle-body .pack-item {
+    padding: 10px 10px;
+}
+
+.pack-item .service-title {
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: #e03;
+    color: #fff;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+.pack-item .pack-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0px 20px 0px;
+}
+
+.pack-item .price-off {
+    position: relative;
+}
+
+    .pack-item .price-off .total-price {
+        text-decoration: line-through;
+    }
+
+    .pack-item .price-off .discount {
+        background: url(/assets/imgs/icons/discount-new.svg) top left no-repeat;
+        background-size: 100%;
+        color: #fff;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        font-size: 13px;
+        padding: 7px 0px;
+        position: absolute;
+        top: -15px;
+        margin-left: 7px;
+    }
+
+.pack-item .price {
+}
+
+    .pack-item .price .total-price {
+        font-size: 2rem;
+        color: #e03;
+        padding: 10px 0px;
+        font-weight: 600;
+    }
+
+    .pack-item .price .unit-name {
+    }
+
+.pack-item .region {
+    padding: 10px;
+}
+
+    .pack-item .region label {
+        margin: 0 10px;
+    }
+
+.bundle-main {
+    border-bottom: 1px solid #e03;
+    -webkit-box-shadow: 0 4px 10px -6px #222;
+    -moz-box-shadow: 0 4px 10px -6px #222;
+    box-shadow: 0 4px 10px -6px #222;
+    padding-bottom: 20px !important;
+}
+
+.bundle-extend {
+    padding-bottom: 20px !important;
+}
+
+.bundle-body .bundle-price {
+    color: #fff;
+    background-color: #e03;
+    border-radius: 0px 00px 20px 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+    .bundle-body .bundle-price .price-title {
+    }
+
+    .bundle-body .bundle-price .price-box .price {
+        font-size: 1.7rem;
+        padding: 10px 0px;
+        font-weight: 600;
+    }
+
+.bundle-body .btn-register {
+    border-radius: 10px;
+    background-color: #fff;
+    color: #e03;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border: 1px solid #e03;
+    font-size: 18px;
+    position: relative;
+    bottom: -12px;
+}
+
+.box-search {
+    padding:20px 0px;
+}

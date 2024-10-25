@@ -1,0 +1,309 @@
+﻿/*Endpoint Security Info*/
+.help-block {
+    color: red;
+}
+
+#btnSavePackage {
+    background-color: #ee0033;
+    border-color: #ee0033;
+}
+
+.btn-renewed {
+    background-color: #fff !important;
+    text-transform: none;
+    border: 1px solid #ee0033 !important;
+    color: #ee0033 !important;
+}
+
+    .btn-renewed:hover {
+        background-color: #ee0033 !important;
+        color: #fff !important;
+    }
+
+.package-form .form-option {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+    .package-form .form-option > label {
+        font-weight: bold;
+        border-bottom: 1px solid #cbcbcb;
+        padding-bottom: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+.ul-modules li {
+    list-style: none;
+    float: left;
+    width: 50%;
+}
+
+.ul-custom-scan li label {
+    width: 20%;
+}
+
+.ul-custom-scan li select {
+    margin-right: 40px;
+    width: 23%;
+}
+
+.btn-action img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.btn-action a:hover img {
+    filter: invert(15%) sepia(73%) saturate(7434%) hue-rotate(341deg) brightness(90%) contrast(109%);
+}
+
+span.no-item {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-links, .width-100, #box-account, #box-package, #box-report, #box-summary, #box-items {
+    width: 100%;
+}
+
+.modal .btn-primary {
+    background-color: #ee0033;
+    border-color: #ee0033;
+}
+
+.col-box-50 {
+    width: 49%;
+    margin-right: 1%;
+}
+
+    .col-box-50:last-child {
+        margin-left: 1%;
+        margin-right: 0;
+    }
+
+.table-endpoint {
+    max-height: 400px;
+}
+.table-endpoint tbody tr{
+    font-family: "Sarabun", sans-serif
+}
+
+    .table-endpoint thead {
+        position: sticky;
+        top: 0px;
+        z-index: 9;
+    }
+
+.red {
+    color: red;
+}
+
+.link-support {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("/Themes/itmetech/img/icons/ico-question.svg") top left no-repeat;
+    background-size: 100%;
+    filter: invert(15%) sepia(73%) saturate(7434%) hue-rotate(341deg) brightness(90%) contrast(109%);
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.automation-notify-wrapper-table .table.table-automation-notify tr th {
+    font-size: 16px !important;
+}
+
+/*Summary box*/
+#box-summary {
+    margin-bottom: 30px;
+}
+
+    #box-summary a:hover {
+        cursor: pointer;
+        color: #ff0000;
+    }
+
+    #box-summary .service-stat {
+        border-radius: 3px;
+        padding: 15px 25px;
+        height: 100%;
+    }
+
+        #box-summary .service-stat .detail-left {
+            float: left;
+            width: 78%;
+            font-weight: 500;
+            font-size: 16px;
+            height: 100%;
+        }
+
+        #box-summary .service-stat .detail-right {
+            float: left;
+            width: 22%;
+            padding-left: 25px;
+            padding-top: 10px;
+        }
+
+            #box-summary .service-stat .detail-right p {
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+    #box-summary .number {
+        font-size: 40px;
+    }
+
+    #box-summary .detail-left p {
+        color: #353638;
+        margin-bottom: 0.3rem;
+    }
+
+.col-box-4 {
+    width: 32%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.05);
+}
+
+    .col-box-4:first-child {
+        margin-left: 0;
+    }
+
+    .col-box-4:last-child {
+        margin-right: 0;
+    }
+
+.detail-right .ico {
+    width: 76px;
+    height: 76px;
+    display: block;
+    background-size: 100%;
+    float: right;
+}
+
+.detail-right .ico-sum {
+    background: url("/Themes/itmetech/img/icons/ico-sum.svg") top left no-repeat;
+}
+
+.detail-right .ico-managed {
+    background: url("/Themes/itmetech/img/icons/ico-managed.svg") top left no-repeat;
+}
+
+.detail-right .ico-unmanaged {
+    background: url("/Themes/itmetech/img/icons/ico-unmanaged.svg") top left no-repeat;
+}
+
+#box-summary .note {
+    font-size: 13px;
+    color: #606060;
+    width: 100%;
+    display: inline-block;
+}
+
+    #box-summary .note strong {
+        color: #ff0000;
+        font-size: 15px;
+    }
+
+
+/*Report*/
+.dropdown-item {
+    text-transform: none !important;
+}
+
+.box-type {
+    position: absolute;
+    right: 125px;
+    top: 11px;
+}
+
+    .box-type .bootstrap-select .btn {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .box-type span {
+        text-transform: none;
+        position: relative;
+        top: -4px;
+        right: 5px;
+    }
+
+}
+
+.box-time {
+    float: left;
+    margin-right: 14px;
+}
+
+#modalReport {
+}
+
+    #modalReport .form-group {
+        margin-top: 0px !important;
+        min-height: 75px;
+        float: left;
+        width: 100%;
+    }
+
+    #modalReport .no-boder {
+        padding: 0px !important;
+        border: none;
+    }
+
+    #modalReport .width-50 {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    #modalReport .box-time {
+        display: inline-block;
+        float: left;
+    }
+
+    #modalReport .input-number {
+        height: calc(1.5em + 0.75rem + 6px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        border: solid 1px #b5b5b5;
+        background-color: #ffffff;
+        max-width: 120px;
+    }
+
+    #modalReport .show-days {
+        margin-bottom: 0px;
+    }
+
+    #modalReport .input-checkbox label {
+        margin-right: 15px;
+    }
+
+        #modalReport .input-checkbox label input, #modalReport .input-radio label input {
+            margin-right: 5px;
+        }
+
+    #modalReport .box-50 {
+        width: 40%;
+        float: left;
+    }
+
+    #modalReport .input-radio {
+        height: auto;
+    }
+
+        #modalReport .input-radio label {
+            width: 100%;
+        }
+
+    #modalReport .filter-detail {
+        padding-left: 30px;
+    }

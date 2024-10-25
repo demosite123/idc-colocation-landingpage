@@ -1,0 +1,305 @@
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .menu-nav {
+        position: absolute;
+        top: 52px;
+        left: -180px;
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 1023px) and (min-width: 577px) {
+    .menu-nav {
+        position: absolute;
+        top: 52px;
+        left: 0px;
+        overflow-y: scroll;
+    }
+}
+@media only screen and (max-width: 414px){
+    .top-nav {
+        position: fixed;
+        max-width: 414px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+  .top-nav {
+      position: fixed;
+  }
+
+  .search-form-header {
+      position: absolute;
+      left: 30px;
+      top: 90px;
+      width: calc(100vw - 60px);
+  }
+
+      .search-form-header input {
+          float: left;
+          width: 100%;
+      }
+
+  .mega li:hover .des {
+      display: block;
+  }
+
+  .menu-icon-animation {
+      margin: 0;
+      width: 30px;
+      cursor: pointer;
+  }
+
+  
+
+  .render-menu-container {
+      display: none;
+      width: 100vw;
+  }
+.options-menu{
+    display: none;
+}
+      .render-menu-container:before {
+          content: '';
+          width: 50px;
+          height: 50px;
+      }
+
+  .container-sub-menu {
+      min-height: unset !important;
+  }
+
+  .megamenu ul li ul li.mega > ul li {
+      width: 100vw;
+  }
+
+  .select-des {
+      padding: 0 15px;
+  }
+
+  .megamenu .login-dd {
+      font-size: 18px !important;
+      text-transform: none;
+      font-weight: 500;
+  }
+
+  .logo-IDC {
+      order: 2;
+      -webkit-flex-order: 2;
+      position: absolute;
+      left: calc(17% - 70px);
+  }
+
+  .megamenu .menu-toggle {
+      position: absolute;
+  }
+
+
+  .render-menu-container li {
+      border-bottom: 1px solid lightgray;
+  }
+
+  .render-menu-container .menu-root a {
+      display: block;
+      padding: 10px 58px;
+  }
+
+  .d-lg-none {
+      padding: 10px 20px;
+  }
+
+  .menu-nav {
+      margin-top: 23px;
+  }
+
+  .container-menu-child {
+      display: none;
+  }
+
+  .menu-btn-mobile span {
+      width: 30px;
+      height: 4px;
+      padding: 8px;
+  }
+
+  .container-menu-child, .container-sub-menu {
+      display: none;
+      width: 100vw;
+  }
+
+  .mega-menu ul.select-des {
+      display: contents !important;
+  }
+
+
+
+  .select-des li {
+      display: block;
+      padding: 0px 10px;
+  }
+
+  .hamburger-icon {
+      margin: 25px;
+      position: absolute;
+      left: 10px;
+      display: block;
+      cursor: pointer;
+      height: 21px;
+      width: 25px;
+      left: calc(97% - 70px);
+  }
+
+      .hamburger-icon span {
+          display: block;
+          top: 8px;
+          width: 25px;
+          height: 3px;
+          position: relative;
+          animation-duration: .2s;
+          animation-delay: 0s;
+          background-color: #606060;
+      }
+
+          .hamburger-icon span:after, .hamburger-icon span:before {
+              display: block;
+              content: '';
+              position: absolute;
+              width: 25px;
+              height: 3px;
+              animation-duration: .2s;
+              animation-delay: .0s;
+              background-color: #606060;
+          }
+
+          .hamburger-icon span:before {
+              margin-top: -8px;
+          }
+
+          .hamburger-icon span:after {
+              margin-top: 8px;
+          }
+
+  #hamburger-checkbox:checked ~ .hamburger-icon span {
+      background-color: #606060;
+      animation-duration: .2s;
+  }
+
+      #hamburger-checkbox:checked ~ .hamburger-icon span:before, #hamburger-checkbox:checked ~ .hamburger-icon span:after {
+          margin-top: 0px;
+          animation-duration: .2s;
+      }
+
+      #hamburger-checkbox:checked ~ .hamburger-icon span:before {
+          transform: rotate(45deg);
+      }
+
+  #hamburger-checkbox:checked ~ .hamburger-icon span {
+      background-color: unset;
+  }
+
+      #hamburger-checkbox:checked ~ .hamburger-icon span:after {
+          transform: rotate(-45deg);
+      }
+
+  .d-lg-none {
+      padding: 0;
+  }
+
+      .d-lg-none a {
+          padding: 10px 20px;
+          display: block;
+      }
+
+      .d-lg-none ul li a {
+          padding: 10px 60px;
+      }
+
+  #hamburger-checkbox:checked ~ .menu .menu-nav #render-menu-container {
+      display: block;
+      background-color: #f2f2f2;
+  }
+
+  .mega-menu ul li {
+      width: 100%;
+  }
+
+  .d-lg-none ul {
+      display: none;
+      transition: 0.2;
+  }
+
+  .d-lg-none:hover ul {
+      display: block;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /*.menu-root {
+      height: 45px;
+  }*/
+  .render-menu .d-lg-inline-block {
+      border-bottom: 1px solid lightgray;
+  }
+  .select-des p {
+      display: none;
+  }
+  .render-menu-container .menu-root .mega > a {
+      padding: 10px 68px;
+  }
+
+      .render-menu-container .menu-root .mega > a.arrow-right-mega:before {
+          content: "\E006";
+          font-family: "VTIcons";
+          font-size: 12px;
+          margin-right: 20px;
+      }
+
+  .arrow-right:before {
+      content: "\E006";
+      font-family: "VTIcons";
+      font-size: 12px;
+      margin-top: 2px;
+      position: absolute;
+      left: 40px;
+  }
+
+  .render-menu-container .menu-root a, .login-dd {
+      border-bottom: 1px solid lightgray;
+  }
+
+  .render-menu-container li {
+      border-bottom: unset;
+  }
+
+  .container-menu-child > a,
+  .container-menu-child-div {
+      background: #ececec;
+  }
+
+  .mega-menu.sub-menu a {
+      background: #e6e6e6;
+      padding: 10px 105px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-right {
+      margin-right: 25px;
+  }
+
+  a.login-dd, .d-lg-none a {
+      color: #606060;
+  }
+
+  .section-solutions .container {
+      padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-24 {
+      position: unset;
+      text-align: center;
+      flex: 0 0 20%;
+      max-width: 20%;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+}

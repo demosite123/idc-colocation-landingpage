@@ -1,0 +1,291 @@
+.btn-transparent {
+  border: 1px solid #fff;
+  padding: 17px 44px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  line-height: 20px;
+  text-decoration: none !important;
+  position: relative;
+  display: inline-block;
+  @include transition(all .5s);
+  @include border-radius(4px);
+
+  &.turquoise {
+    border: 0;
+    background-color: $orange;
+
+    &:hover {
+      color: $orange;
+      background-color: #fff;
+    }
+  }
+
+  &.btn-view-more {
+    &:hover {
+      color: $turquoise;
+      background-color: #fff;
+    }
+  }
+
+  &.btn-trailer {
+    color: white;
+    background-color: $orange;
+    border: 1px solid $orange;
+
+    &:hover {
+      color: $orange;
+      background-color: #fff;
+      border: 1px solid #fff;
+    }
+  }
+
+  i.vt-icon {
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -11px;
+  }
+}
+
+.badge {
+  font-style: normal;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 10px;
+  padding: 0.5em 0.8em;
+  vertical-align: middle;
+
+  &.badge-rounded {
+    border-radius: 50%;
+  }
+
+  &.badge-orange {
+    border: 1.5px solid #fff;
+    background-color: #f78f24;
+    color: #fff;
+    text-align: center;
+  }
+
+  &.badge-warning {
+    background-color: $orange;
+    color: #fff;
+  }
+
+  &.badge-success {
+    background-color: $orange;
+    border: 1px solid white;
+    color: white;
+  }
+}
+
+.btn-viettel {
+  padding: 17px 44px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  line-height: 20px;
+  text-decoration: none !important;
+  position: relative;
+  display: inline-block;
+  @include border-radius(4px);
+  @include transition(all .5s);
+  @include media-breakpoint-down(md) {
+    padding: 17px 25px;
+  }
+  @include media-breakpoint-down(xs) {
+    display: block;
+    width: 100%;
+  }
+
+  &.transparent {
+    border: 1px solid #fff;
+    background-color: transparent;
+
+    &:hover {
+      color: $turquoise;
+      border: 1px solid $turquoise;
+      background-color: #fff;
+    }
+  }
+
+  &.orange {
+    border: 1px solid #f78f24;
+    background-color: #f78f24;
+
+    &:hover {
+      color: $orange;
+      border: 1px solid $orange;
+      background-color: #fff;
+    }
+  }
+}
+
+.visibility-toggler {
+  .buttons-collection {
+    padding: 0;
+    background: url(../img/svg/more_icn.svg) no-repeat center/14px transparent;
+    text-indent: -99999px;
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    width: 15px;
+
+    &:hover {
+      opacity: 0.5
+    }
+  }
+
+  .dropdown-item {
+    width: auto;
+    font-size: 14px;
+    position: relative;
+    padding-left: 35px;
+
+    &:before {
+      content: '';
+      height: 14px;
+      width: 14px;
+      border: solid 1px #b5b5b5;
+      border-radius: 4px;
+      display: inline-block;
+      position: absolute;
+      left: 10px;
+      top: 7px;
+    }
+
+    &:last-child {
+      display: none;
+    }
+
+    &.active {
+      color: #353638 !important;
+      background: transparent;
+
+      &:after {
+        width: 10px;
+        height: 10px;
+        content: '';
+        display: inline-block;
+        background: url(../img/svg/check-mark_icn.svg) no-repeat center/cover;
+        position: absolute;
+        left: 13px;
+        top: 10px;
+      }
+    }
+  }
+}
+
+.btn-manipulation {
+  border-radius: 20px;
+  padding: 10px 25px 10px 45px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  line-height: 20px;
+  text-decoration: none !important;
+  position: relative;
+  display: inline-block;
+  @include transition(all .5s);
+  @include border-radius(20px);
+
+  .vt-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    @include translate(0, -50%);
+  }
+
+  &.blue {
+    background-color: $blue-light;
+
+    &:hover {
+      color: #ffffff;
+      background-color: darken($blue-light, 5%);
+    }
+  }
+
+  &.orange {
+    background-color: $orange;
+
+    &:hover {
+      color: #ffffff;
+      background-color: darken($orange, 5%);
+    }
+  }
+
+}
+
+.btn {
+  &.btn-blue {
+    color: #fff !important;
+    background-color: $blue-light;
+
+    &:hover {
+      color: #ffffff;
+      background-color: darken($blue-light, 5%);
+    }
+  }
+}
+
+.btn-dashboard {
+  border: 0;
+  padding: 5px 10px 5px 40px;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  line-height: 20px;
+  text-decoration: none !important;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  @include transition(all .5s);
+  @include border-radius(4px);
+
+  .vt-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    @include translate(0, -50%);
+  }
+
+  &.blue {
+    background-color: $blue-light;
+
+    &:hover {
+      color: #ffffff;
+      background-color: darken($blue-light, 5%);
+    }
+  }
+
+  &.orange {
+    background-color: $orange;
+
+    &:hover {
+      color: #ffffff;
+      background-color: darken($orange, 5%);
+    }
+  }
+}
+
+.btn-loading {
+  position: relative;
+  color: transparent !important;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    background: url("../img/svg/loading.svg") no-repeat;
+    z-index: 10;
+    width: 35px;
+    height: 35px;
+    @include translate(-50%, -50%);
+  }
+}
