@@ -1,0 +1,11 @@
+/* styles.css */
+.carousel-item {
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}

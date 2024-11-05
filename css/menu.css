@@ -14,12 +14,6 @@
         overflow-y: scroll;
     }
 }
-@media only screen and (max-width: 414px){
-    .top-nav {
-        position: fixed;
-        max-width: 414px;
-    }
-}
 @media only screen and (max-width: 1199px) {
   .top-nav {
       position: fixed;
@@ -84,7 +78,7 @@
       order: 2;
       -webkit-flex-order: 2;
       position: absolute;
-      left: calc(17% - 70px);
+      /* left: calc(50% - 70px); */
   }
 
   .megamenu .menu-toggle {

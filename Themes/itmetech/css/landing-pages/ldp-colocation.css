@@ -729,7 +729,7 @@ a.idc-btn-get-advice {
         content: '';
         height: 100%;
         width: 100%;
-        background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 25% ), url('../../../../assets/imgs/landingpage/ldp-colocation/idc-ldp-colocation-solution-bg.jpg') no-repeat center;
+        /* background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 25% ), url('../../../../assets/imgs/landingpage/ldp-colocation/idc-ldp-colocation-solution-bg.jpg') no-repeat center; */
         filter: brightness(0.85);
         position: absolute;
     }
@@ -1201,11 +1201,6 @@ input[type="checkbox"]:checked ~ .title {
     section#idc-certificate-section .section-header {
         display: block;
     }
-
-    #idc-related-service-section {
-        padding-top: 0rem;
-    }
-
     #idc-service-information {
         padding: 0;
     }

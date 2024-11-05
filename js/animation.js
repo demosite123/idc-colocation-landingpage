@@ -17,10 +17,10 @@ function countStart(){
 }
 
 new Waypoint({
-  element: document.querySelector('.service-group'),
+  element: document.querySelector('.about-info'),
   handler: function() {
     countStart()
-    //this.destroy() //for once
+    this.destroy() //for once
   },
-  offset: '50%'
+  offset: '100%'
 });
