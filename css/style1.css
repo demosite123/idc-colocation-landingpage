@@ -40,7 +40,18 @@
     .idc-adv-container {
         height: 312px;
     }
-    
+    .solution-container {
+      height: 550px;
+    }
+    .slide-item {
+      height: 250px !important;
+    }
+  #award-carousel img.card-img-top {
+      margin: 0px auto;
+      display: block;
+      width: 200px !important;
+      height: 200px  !important;
+  }
   }
   /* Large  */
   @media (max-width: 1199px) and (min-width: 992px) {
@@ -63,7 +74,9 @@
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px 0px !important;
     }
-    
+    .solution-container {
+      height: 550px;
+    }
   }
   /* Medium */
   @media (max-width: 991px) and (min-width: 768px) {
@@ -186,7 +199,14 @@
       line-height: 22px;
       letter-spacing: -0.1%;
     }
-    #partners .logo-partner{width: 184px; height: 90.35px !important; }
+    #partners .logo-partner {
+      margin: 8px 8px;
+      width: 167px !important;
+      height: 74.35px !important;
+    }
+    #partners .marquee_mob .logo-partner{
+      display: unset !important;
+    }
     .certificate-item{
       height: inherit;
       background-size: 81px !important;
@@ -211,28 +231,7 @@
       padding-right: 0%;
       margin-bottom: 16px;
     }
-    /* .why-us-content {
-      max-height: 200px; 
-      width: inherit;
-      border: 0.5px solid var(--secondary-color-40);
-      border-radius: 2px;
-      text-align: center;
-      overflow: hidden;
-      transition: max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
-      padding: 18px 16px 16px;
-      background-color: #fff;
-    }
     
-    .why-us-hidden-paragraph {
-      opacity: 1 !important;
-      max-height: 133.63px !important;
-      text-align: left;
-      margin-bottom: 0px !important;
-      overflow: hidden;
-      transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
-      padding: 4px 0px 0px 0px !important;
-      margin-top: 0px !important;
-    } */
     .idc-adv-container{
       height: 214px !important;
     }
@@ -243,7 +242,7 @@
       text-transform: uppercase !important;
       padding-left: 0%;
       padding-right: 0px;
-      margin-bottom: 10px !important;
+      margin-bottom: 32px !important;
     }
     .idc-form-advice{
       padding: 35px 17px !important;
@@ -260,13 +259,10 @@
     .service-section .section-title{
       margin-bottom: 40px !important;
     }
-    .ceritificate-section .section-title{
-      margin-bottom: 100px !important;
-    }
+    
     .idc-awards-indicator-item{
-      padding: 5px 15px;
-      line-height: 20px !important;
-      font-size: 14px !important;
+      line-height: 22px !important;
+      font-size: 13px !important;
       margin: 0px !important;
       height: unset !important;
     }
@@ -289,7 +285,17 @@
       line-height: 22px;
     }
   }
-  
+  @media (max-width: 400px) {
+    .slide-item {
+        height: 135px !important;
+        width: 130px !important;
+    }
+    #partners .logo-partner {
+      margin: 6px 5px;
+      width: 135px !important;
+      height: 59.35px !important;
+  }
+}
 .idc-primary-90{
     color: #620915;
   }
@@ -496,8 +502,9 @@
 }
 .card-solution-container:hover {
     height: 126px;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.073);
-    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgb(221, 221, 221);
+    transform: none;
+    transform-origin: 50% 50% 0px;
 }
 
 .card-solution-container:hover .card-title {
@@ -644,7 +651,7 @@
 }
 
 .slide-item {
-	background-color: transparent;
+	background-color: #FFFFFF;
   display: flex !important;
   justify-content: center;
   align-items: center;
@@ -661,6 +668,13 @@
 }
 .idc-advice-wraper{
   background-image: url('../img/Background-get-advice.png');
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ceritificate-section{
+  background-image: url('../img/advice-bg.jpg');
   height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
@@ -796,19 +810,20 @@
     height: 240px;
 }
 #award-carousel .owl-item .card-body {
-  padding-top: 32px;
     text-align: center;
+    padding: 0px;
 }
 
 .idc-awards-indicator-item{
-  line-height: 24px;
-  letter-spacing: -0.1%;
-  color: #3D3D3D;
-  border: none;
-  margin: 0px;
-  padding: 7px 40px;
-  font-size: 20px;
-  background-color: transparent;
+  width: 250px;
+    line-height: 24px;
+    letter-spacing: -0.1%;
+    color: #3D3D3D;
+    border: none;
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 20px;
+    background-color: transparent;
 }
 .idc-awards-indicator .row {
   width: fit-content !important;
@@ -867,16 +882,20 @@
   to{transform: translateX(var(--scroll-end));}
 }
 #partners .logo-partner:hover{
-  box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.073);
+  box-shadow: 0px 1px 5px 0px rgb(221, 221, 221);
+  transform: none;
+  transform-origin: 50% 50% 0px;
 }
-#partners .logo-partner{height: 100.35px;}
-#partners .marquee .logo-partner{
-  display: grid;
+#partners .logo-partner{height: 100.35px; background-color: #ffffff;}
+#partners .marquee .logo-partner, #partners .marquee_mob .logo-partner{
+  display: grid; 
     place-items: center;
     width: 242px;
     fill: var(--color-text);
-    background: var(--color-bg-accent);
+    background: #ffffff;
     aspect-ratio: 19 / 9;
+    border: 0.5px solid var(--secondary-color-40);
+    border-radius: 2px;
 }
 #partners .wrapper{
   display: flex;

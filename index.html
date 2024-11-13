@@ -58,7 +58,6 @@
 <!-- Style CSS -->
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-<link href="./Themes/itmetech/css/toastr.css" rel="stylesheet">
 <link href="./Themes/itmetech/css/bootstrap-datepicker.standalone.css" rel="stylesheet">
 <link href="./Themes/itmetech/css/main.css" rel="stylesheet">
 <link href="./Themes/itmetech/css/landing-pages/ldp-colocation.css?v=1.0" rel="stylesheet">
@@ -86,7 +85,7 @@
 <body>
 
     <main class="scroll-container" id="scrollContainer">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" style="border-bottom: 1px solid var(--secondary-color-40);">
             <div class="container container-padding">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo-IDC 1.svg" alt="Viettel IDC" title="Hanoi: Floor 16, Hapulico Center Building, No. 1 Nguyen Huy Tuong, Thanh Xuan District.">
@@ -100,40 +99,40 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-lg-center me-auto ms-lg-3">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#whyus">Why us</a>
+                            <a class="nav-link" href="#whyus">Why us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#services-and-solution">Services & Solutions</a>
+                            <a class="nav-link" href="#idc-related-service-section">Services & Solutions</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#certificate">Certificates</a>
+                            <a class="nav-link" href="#ceritificate">Certificates</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#awards">Awards</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#partners">Partners</a>
+                            <a class="nav-link" href="#awards">Awards</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#fandq">F&Q</a>
+                            <a class="nav-link" href="#partners">Partners</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#news">News</a>
+                            <a class="nav-link" href="#fandq">F&Q</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://viettelidc.com.vn/Account/Register" class="btn custom-btn custom-btn-secondary d-lg-none ms-auto me-4 " style="margin-right: 24px ;">
-                                <span >Register</span></a>
-                            <a href="https://viettelidc.com.vn/Account/Login" class="btn custom-btn d-lg-none ms-auto me-4">
-                                <span>Login</span></a>
+                            <a href="https://viettelidc.com.vn/Account/Login" class="btn custom-btn custom-btn-secondary d-lg-none ms-auto me-4 " style="margin-right: 24px ;">
+                                <span >Login</span></a>
+                            <a href="https://viettelidc.com.vn/Account/Register" class="btn custom-btn d-lg-none ms-auto me-4">
+                                <span>Register</span></a>
                         </li>
                     </ul>
-                    <a href="https://viettelidc.com.vn/Account/Login" class="btn custom-btn custom-btn-secondary d-lg-block d-none" style="margin-right: 24px ;"><span >Register</span></a>
-                    <a href="https://viettelidc.com.vn/Account/Login" class="btn custom-btn d-lg-block d-none"><span>Login</span></a>
+                    <a href="https://viettelidc.com.vn/Account/Login" class="btn custom-btn custom-btn-secondary d-lg-block d-none" style="margin-right: 24px ;"><span >Login</span></a>
+                    <a href="https://viettelidc.com.vn/Account/Register" class="btn custom-btn d-lg-block d-none"><span>Register</span></a>
                 </div>
             </div>
         </nav>
@@ -153,7 +152,7 @@
                                 <br/>
                                 <span class="idc-secondary-10">provider for digital transformation</span>
                             </h1>
-                            <a data-aos="fade-up" data-aos-duration="1200" class="btn custom-btn custom-btn-outline smoothscroll" title="Get Advice" href="#get-advice">Get Advice</a>
+                            <a data-aos="fade-up" data-aos-duration="1200" class="btn custom-btn custom-btn-outline smoothscroll" title="Get Advice" onclick="openForm()">Get Advice</a>
                         </div>
                     </div>
                 </div>
@@ -240,92 +239,97 @@
             </section>
         </section>
         <section class="whyus-section section-padding scroll-section" id="whyus">
-            <div class="container container-padding section-wapper">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center">
-                            <h2 class="section-title fade-text" data-delay="0">
-                                Why us
-                            </h2>
-                            <p class="section-subtitle idc-secondary-90 fade-text" data-delay="0.2">
-                                "Comprehensive services extending beyond borders with international standards, Viettel IDC delivers leading, trustworthy solutions."</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 fade-text" data-delay="0.2">
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
-                                        <div class="why-us-content">
-                                            <div class="why-us-title">
-                                                <div>
-                                                    <img src="img/outstanding.svg" alt="outstanding-quality-icon">
-                                                </div>
-                                                <h4>
-                                                    <span>Outstanding quality</span>
-                                                </h4>
-                                            </div>
-                                            <p class="why-us-hidden-paragraph">System of 5 International Standard Data Centers Rated 3 - TIA 942, uptime 99.99%.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
-                                        <div class="why-us-content">
-                                            <div class="why-us-title">
-                                                <div>
-                                                    <img src="img/high-sercurity.svg" alt="high-sercurity-icon">
-                                                </div>
-                                                <h4>
-                                                    <span>High security</span>
-                                                </h4>
-                                            </div>
-                                            <p class="why-us-hidden-paragraph">Possessing international security certificates, commitment to control, limit system risk, ensure data safety.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
-                                        <div class="why-us-content">
-                                            <div class="why-us-title">
-                                                <div>
-                                                    <img src="img/high-sercurity.svg" alt="high-sercurity-icon">
-                                                </div>
-                                                <h4>
-                                                    <span>High security</span>
-                                                </h4>
-                                            </div>
-                                            <p class="why-us-hidden-paragraph">Possessing international security certificates, commitment to control, limit system risk, ensure data safety.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
-                                        <div class="why-us-content">
-                                            <div class="why-us-title">
-                                                <div>
-                                                    <img src="img/high-sercurity.svg" alt="high-sercurity-icon">
-                                                </div>
-                                                <h4>
-                                                    <span>High security</span>
-                                                </h4>
-                                            </div>
-                                            <p class="why-us-hidden-paragraph">Possessing international security certificates, commitment to control, limit system risk, ensure data safety.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 fade-text col-fit-container" data-delay="0.2">
-                        <div class="row solution-category mt-4">
-                            <div class="col-lg-12" style="padding-right: 0%;">
-                                <div class="idc-adv-container">
-                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QEshpcEwFlo?si=cDAPnIvMSwz0CEim" title="TRUNG TÂM DỮ LIỆU THÔNG MINH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-                                    </iframe>
-                                </div>
+            <div class="container container-padding" style="position: relative;">
+                <div class="whyus-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center">
+                                <h2 class="section-title fade-text" data-delay="0">
+                                    Why us
+                                </h2>
+                                <p class="section-subtitle idc-secondary-90 fade-text" data-delay="0.2">
+                                    "Comprehensive services extending beyond borders with international standards, Viettel IDC delivers leading, trustworthy solutions."</p>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 fade-text" data-delay="0.2">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
+                                            <div class="why-us-content hover-effect">
+                                                <div class="why-us-title">
+                                                    <div>
+                                                        <img src="img/outstanding.svg" alt="outstanding-quality-icon">
+                                                    </div>
+                                                    <h4>
+                                                        <span>Outstanding quality</span>
+                                                    </h4>
+                                                </div>
+                                                <p class="why-us-hidden-paragraph">System of 5 International Standard Data Centers Rated 3 - TIA 942, uptime 99.99%.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
+                                            <div class="why-us-content">
+                                                <div class="why-us-title">
+                                                    <div>
+                                                        <img src="img/high-sercurity.svg" alt="high-sercurity-icon">
+                                                    </div>
+                                                    <h4>
+                                                        <span>High security</span>
+                                                    </h4>
+                                                </div>
+                                                <p class="why-us-hidden-paragraph">Possessing international security certificates, commitment to control, limit system risk, ensure data safety.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
+                                            <div class="why-us-content">
+                                                <div class="why-us-title">
+                                                    <div>
+                                                        <img src="img/high-sercurity.svg" alt="high-sercurity-icon">
+                                                    </div>
+                                                    <h4>
+                                                        <span>High security</span>
+                                                    </h4>
+                                                </div>
+                                                <p class="why-us-hidden-paragraph">Possessing international security certificates, commitment to control, limit system risk, ensure data safety.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
+                                            <div class="why-us-content">
+                                                <div class="why-us-title">
+                                                    <div>
+                                                        <img src="img/high-sercurity.svg" alt="high-sercurity-icon">
+                                                    </div>
+                                                    <h4>
+                                                        <span>High security</span>
+                                                    </h4>
+                                                </div>
+                                                <p class="why-us-hidden-paragraph">Possessing international security certificates, commitment to control, limit system risk, ensure data safety.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 fade-text col-fit-container" data-delay="0.2">
+                            <div class="row solution-category">
+                                <div class="col-lg-12" style="padding-right: 0%; position: static;">
+                                    <div class="idc-adv-container">
+                                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QEshpcEwFlo?si=cDAPnIvMSwz0CEim" title="TRUNG TÂM DỮ LIỆU THÔNG MINH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+
                 </div>
+                
             </div>
         </section>
-
          <!-- SERVICES & SOLUTIONS -->
          <section id="idc-related-service-section" class="service-section section-padding scroll-section">
             <div class="container container-padding section-wapper">
@@ -339,10 +343,10 @@
                     </div>
                     <div class="col-12">
                         <div class="solution-container d-none d-md-flex fade-text" data-delay="0.2">
-                                <div class="img" style="background: url('/img/Conectivity.png') no-repeat center;">
-                                    <h3 class="px-5" style="text-align: center;">Connectivity</h3>
+                                <div class="img" style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ), url('/img/Conectivity.png') no-repeat center;">
+                                    <h3 class="px-5">Connectivity</h3>
                                     <div class="px-5 pb-5 pt-0">
-                                        <ul style="list-style: disc;">
+                                        <ul  >
                                             <li>
                                                 <p style="display: grid;">
                                                     <span style="font-weight: bold;">Transmission & Internet Services</span> 
@@ -380,22 +384,13 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <div>
-                                            <a class="idc-btn-ghost" href="https://viettelidc.com.vn/Account/Register" title="Register"
-                                            style="margin-right: 24px;">
-                                                <span>Find out more</span>
-                                            </a>
-                                            <a class="idc-btn-primary" href="https://viettelidc.com.vn/Account/Login" title="Login">
-                                                <span>Login</span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="img solution-active" 
-                                style="background:url('/assets/imgs/landingpage/ldp-colocation/idc-ldp-colocation-solution-bg.jpg') no-repeat center;">
-                                    <h3 class="px-5 " style="text-align: center;">Data Center</h3>
+                                style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ),url('/assets/imgs/landingpage/ldp-colocation/idc-ldp-colocation-solution-bg.jpg') no-repeat center;">
+                                    <h3 class="px-5 ">Data Center</h3>
                                     <div class="px-5 pb-5 pt-0">
-                                        <ul style="list-style: disc;">
+                                        <ul  >
                                             <li>
                                                 <p style="display: grid;">
                                                     <span style="font-weight: bold;">Transmission & Internet Services</span> 
@@ -433,21 +428,12 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <div>
-                                            <a class="idc-btn-ghost" href="https://viettelidc.com.vn/Account/Register" title="Register"
-                                            style="margin-right: 24px;">
-                                                <span>Find out more</span>
-                                            </a>
-                                            <a class="idc-btn-primary" href="https://viettelidc.com.vn/Account/Login" title="Login">
-                                                <span>Login</span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="img" style="background:url('/img/Security.jpg') no-repeat center;">
-                                    <h3 class="px-5" style="text-align: center;">Cloud</h3>
+                                <div class="img" style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ),url('/img/Security.jpg') no-repeat center;">
+                                    <h3 class="px-5">Cloud</h3>
                                     <div class="px-5 pb-5 pt-0">
-                                        <ul style="list-style: disc;">
+                                        <ul  >
                                             <li>
                                                 <p style="display: grid;">
                                                     <span style="font-weight: bold;">Transmission & Internet Services</span> 
@@ -485,21 +471,12 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <div>
-                                            <a class="idc-btn-ghost" href="https://viettelidc.com.vn/Account/Register" title="Register"
-                                            style="margin-right: 24px;">
-                                                <span>Find out more</span>
-                                            </a>
-                                            <a class="idc-btn-primary" href="https://viettelidc.com.vn/Account/Login" title="Login">
-                                                <span>Login</span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="img" style="background:url('/img/Cloud.jpg') no-repeat center;">
-                                    <h3 class="px-5" style="text-align: center;">Managed Services</h3>
+                                <div class="img" style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ),url('/img/Cloud.jpg') no-repeat center;">
+                                    <h3 class="px-5">Managed Services</h3>
                                     <div class="px-5 pb-5 pt-0">
-                                        <ul style="list-style: disc;">
+                                        <ul  >
                                             <li>
                                                 <p style="display: grid;">
                                                     <span style="font-weight: bold;">Transmission & Internet Services</span> 
@@ -537,21 +514,12 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <div>
-                                            <a class="idc-btn-ghost" href="https://viettelidc.com.vn/Account/Register" title="Register"
-                                            style="margin-right: 24px;">
-                                                <span>Find out more</span>
-                                            </a>
-                                            <a class="idc-btn-primary" href="https://viettelidc.com.vn/Account/Login" title="Login">
-                                                <span>Login</span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="img" style="background:url('/img/manage\ service.jpg') no-repeat center;">
-                                    <h3 class="px-5" style="text-align: center;">Sercurity</h3>
+                                <div class="img" style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ),url('/img/manage\ service.jpg') no-repeat center;">
+                                    <h3 class="px-5">Sercurity</h3>
                                     <div class="px-5 pb-5 pt-0">
-                                        <ul style="list-style: disc;">
+                                        <ul  >
                                             <li>
                                                 <p style="display: grid;">
                                                     <span style="font-weight: bold;">Transmission & Internet Services</span> 
@@ -589,83 +557,234 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <div>
-                                            <a class="idc-btn-ghost" href="https://viettelidc.com.vn/Account/Register" title="Register"
-                                            style="margin-right: 24px;">
-                                                <span>Find out more</span>
-                                            </a>
-                                            <a class="idc-btn-primary" href="https://viettelidc.com.vn/Account/Login" title="Login">
-                                                <span>Login</span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                         </div>
-                        <div class="d-md-none"
-                        data-aos="fade-up" data-aos="fade-zoom-in"
-                        data-aos-easing="ease-in-back"
-                        data-aos-delay="300"
-                        data-aos-offset="0">
-                            <div class="solution-container-mobile owl-carousel owl-theme owl-loaded owl-drag">
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-780px, 0px, 0px); transition: all; width: 3120px;"><div class="owl-item cloned" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Transmission channel</h3>
+                        <div class="d-md-none fade-text" data-delay="0.2">
+                            <div class="solution-container-mobile owl-slider">
+                                <div id="solution-mobile-carousel" class="owl-carousel">
+                                    <div class="img-mobile" 
+                                        style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ), url('/img/Conectivity.png') no-repeat center;">
+                                        <h3 class="px-3">Connectivity</h3>
                                         <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                Viettel IDC provides dedicated channels for connecting and transmitting information between points in the customer's internal network, telecommunication network. Connection options: VPN, Dark-fibre, FTTX, WAN, IP TRANSIT, IPLC...
-                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Transmission & Internet Services</span> 
+                                                        Metrowan, Leased Line, Domestic and International Bandwidth…
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Hybrid Connect</span> 
+                                                        Network connection to Viettel IDC’s cloud.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Media CDN</span> 
+                                                        Enhancing service quality and increasing the ability to serve digital content access.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel SD-WAN</span> 
+                                                        A virtual WAN network that simplifies the connection of an organization's branch systems.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Voice Brandname</span> 
+                                                        Creating a professional brand image, increasing the call pick-up rate from customers.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Multi-CDN</span> 
+                                                        Global connectivity, accelerating user experience
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div></div><div class="owl-item cloned" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Managed Service</h3>
+                                    </div>
+                                    <div class="img-mobile" 
+                                        style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ), url('/img/Cloud.jpg') no-repeat center;">
+                                        <h3 class="px-3">Data Center</h3>
                                         <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                Viettel IDC provides IT server or equipment management services such as servers, routers, firewalls..., which helps businesses with insufficient personnel to operate or want to save costs and optimize operating resources on Cloud computing infrastructure.
-                                            </div>
+                                            <ul  >
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Transmission & Internet Services</span> 
+                                                        Metrowan, Leased Line, Domestic and International Bandwidth…
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Hybrid Connect</span> 
+                                                        Network connection to Viettel IDC’s cloud.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Media CDN</span> 
+                                                        Enhancing service quality and increasing the ability to serve digital content access.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel SD-WAN</span> 
+                                                        A virtual WAN network that simplifies the connection of an organization's branch systems.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Voice Brandname</span> 
+                                                        Creating a professional brand image, increasing the call pick-up rate from customers.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Multi-CDN</span> 
+                                                        Global connectivity, accelerating user experience
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div></div><div class="owl-item active" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Colocation</h3>
+                                    </div>
+                                    <div class="img-mobile" 
+                                        style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ), url('/img/Cloud.jpg') no-repeat center;">
+                                        <h3 class="px-3">Data Center</h3>
                                         <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                <span style="white-space-collapse: preserve;">The server hosting service satisfies the desire to place servers in Data Center with&nbsp;TIA-942 Rated 3 Constructed Facilities&nbsp;standards, ensuring a strong transmission speed and 24/7 technical support.</span>
-            
-                                            </div>
+                                            <ul  >
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Transmission & Internet Services</span> 
+                                                        Metrowan, Leased Line, Domestic and International Bandwidth…
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Hybrid Connect</span> 
+                                                        Network connection to Viettel IDC’s cloud.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Media CDN</span> 
+                                                        Enhancing service quality and increasing the ability to serve digital content access.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel SD-WAN</span> 
+                                                        A virtual WAN network that simplifies the connection of an organization's branch systems.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Voice Brandname</span> 
+                                                        Creating a professional brand image, increasing the call pick-up rate from customers.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Multi-CDN</span> 
+                                                        Global connectivity, accelerating user experience
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div></div><div class="owl-item" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Server Leasing</h3>
+                                    </div>
+                                    <div class="img-mobile" 
+                                        style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ), url('/img/Cloud.jpg') no-repeat center;">
+                                        <h3 class="px-3">Data Center</h3>
                                         <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                The service provides you with dedicated servers, network equipment, security and storage devices,... with a variety of configurations, respective spaces in Viettel IDC’s Data Centers, meeting all your needs and ensuring high security.&nbsp; 24/7 technical support, allowing remote-eye and remote-hand.
-                                            </div>
+                                            <ul  >
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Transmission & Internet Services</span> 
+                                                        Metrowan, Leased Line, Domestic and International Bandwidth…
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Hybrid Connect</span> 
+                                                        Network connection to Viettel IDC’s cloud.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Media CDN</span> 
+                                                        Enhancing service quality and increasing the ability to serve digital content access.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel SD-WAN</span> 
+                                                        A virtual WAN network that simplifies the connection of an organization's branch systems.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Voice Brandname</span> 
+                                                        Creating a professional brand image, increasing the call pick-up rate from customers.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Multi-CDN</span> 
+                                                        Global connectivity, accelerating user experience
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div></div><div class="owl-item" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Transmission channel</h3>
+                                    </div>
+                                    <div class="img-mobile" 
+                                        style="background:linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100% ), url('/img/Cloud.jpg') no-repeat center;">
+                                        <h3 class="px-3">Data Center</h3>
                                         <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                Viettel IDC provides dedicated channels for connecting and transmitting information between points in the customer's internal network, telecommunication network. Connection options: VPN, Dark-fibre, FTTX, WAN, IP TRANSIT, IPLC...
-                                            </div>
+                                            <ul  >
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Transmission & Internet Services</span> 
+                                                        Metrowan, Leased Line, Domestic and International Bandwidth…
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Hybrid Connect</span> 
+                                                        Network connection to Viettel IDC’s cloud.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Media CDN</span> 
+                                                        Enhancing service quality and increasing the ability to serve digital content access.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel SD-WAN</span> 
+                                                        A virtual WAN network that simplifies the connection of an organization's branch systems.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Voice Brandname</span> 
+                                                        Creating a professional brand image, increasing the call pick-up rate from customers.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p style="display: grid;">
+                                                        <span style="font-weight: bold;">Viettel Multi-CDN</span> 
+                                                        Global connectivity, accelerating user experience
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div></div><div class="owl-item" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Managed Service</h3>
-                                        <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                Viettel IDC provides IT server or equipment management services such as servers, routers, firewalls..., which helps businesses with insufficient personnel to operate or want to save costs and optimize operating resources on Cloud computing infrastructure.
-                                            </div>
-                                        </div>
-                                    </div></div><div class="owl-item cloned" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Colocation</h3>
-                                        <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                <span style="white-space-collapse: preserve;">The server hosting service satisfies the desire to place servers in Data Center with&nbsp;TIA-942 Rated 3 Constructed Facilities&nbsp;standards, ensuring a strong transmission speed and 24/7 technical support.</span>
-            
-                                            </div>
-                                        </div>
-                                    </div></div><div class="owl-item cloned" style="width: 390px;"><div class="img-mobile">
-                                        <h3 class="px-3">Server Leasing</h3>
-                                        <div class="px-3 pb-5 pt-0">
-                                            <div>
-                                                The service provides you with dedicated servers, network equipment, security and storage devices,... with a variety of configurations, respective spaces in Viettel IDC’s Data Centers, meeting all your needs and ensuring high security.&nbsp; 24/7 technical support, allowing remote-eye and remote-hand.
-                                            </div>
-                                        </div>
-                                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -849,10 +968,10 @@
                     <div class="col-12">
                         <div class="text-center">
                             <h2 
-                             class="section-title idc-primary-60 fade-text" style="margin-bottom: 16px;" data-delay="0">
+                             class="section-title idc-primary-60 fade-text" style="margin-bottom: 8px !important" data-delay="0">
                                 Expand your horizons
                             </h2> 
-                            <p class="section-subtitle idc-primary-60 fade-text" data-delay="0.2">
+                            <p class="section-subtitle idc-primary-60 fade-text" data-delay="0.2" style="margin-bottom: 32px;">
                                 Viettel IDC is always ready to support
                         </p>
                         </div>
@@ -930,13 +1049,13 @@ display: block; width: 200px;">
                     <div class="col-12 section-padding-small fade-text" data-delay="0.2">
                         <div class="idc-awards-indicator">
                             <div class="row">
-                                <button onclick="rebindingAwardsData('group1')" class="col-4 font-weight-bold idc-awards-indicator-item active">
-                                    Clound Awards
+                                <button type="button" data-group="group1" class="col-4 font-weight-bold idc-awards-indicator-item active">
+                                    Cloud Awards
                                 </button>
-                                <button onclick="rebindingAwardsData('group2')" class="col-4 font-weight-bold idc-awards-indicator-item">
+                                <button type="button" data-group="group2" class="col-4 font-weight-bold idc-awards-indicator-item">
                                     Data Center Awards
                                 </button>
-                                <button onclick="rebindingAwardsData('group3')" class="col-4 font-weight-bold idc-awards-indicator-item">
+                                <button type="button" data-group="group3" class="col-4 font-weight-bold idc-awards-indicator-item">
                                     Technology Awards
                                 </button>
                             </div>
@@ -946,66 +1065,7 @@ display: block; width: 200px;">
                     padding: 0px;">
                         <div class="owl-slider">
                             <div id="award-carousel" class="owl-carousel">
-                                <div class="item group1">
-                                    <div class="card">
-                                        <img src="img/award.svg" class="card-img-top" alt="img/award.svg">
-                                        <div class="card-body">
-                                          <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">2024</h5>
-                                          <h5 class="card-title" style="margin: 16px;">Cybersecurity Excellence Awards 2024</h5>
-                                          <p class="card-text idc-secondary-60">Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="item group1">
-                                    <div class="card">
-                                        <img src="img/award.svg" class="card-img-top" alt="img/award.svg">
-                                        <div class="card-body">
-                                          <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">2024</h5>
-                                          <h5 class="card-title" style="margin: 16px;">Cybersecurity Excellence Awards 2024</h5>
-                                          <p class="card-text idc-secondary-60">Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="item group1">
-                                    <div class="card">
-                                        <img src="img/award.svg" class="card-img-top" alt="img/award.svg">
-                                        <div class="card-body">
-                                          <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">2024</h5>
-                                          <h5 class="card-title" style="margin: 16px;">Cybersecurity Excellence Awards 2024</h5>
-                                          <p class="card-text idc-secondary-60">Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="item group2">
-                                    <div class="card">
-                                        <img src="img/award.svg" class="card-img-top" alt="img/award.svg">
-                                        <div class="card-body">
-                                          <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">2024</h5>
-                                          <h5 class="card-title" style="margin: 16px;">Cybersecurity Excellence Awards 2024</h5>
-                                          <p class="card-text idc-secondary-60">Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="item group2">
-                                    <div class="card">
-                                        <img src="img/award.svg" class="card-img-top" alt="img/award.svg">
-                                        <div class="card-body">
-                                          <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">2024</h5>
-                                          <h5 class="card-title" style="margin: 16px;">Cybersecurity Excellence Awards 2024</h5>
-                                          <p class="card-text idc-secondary-60">Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="item group3">
-                                    <div class="card">
-                                        <img src="img/award.svg" class="card-img-top" alt="img/award.svg">
-                                        <div class="card-body">
-                                          <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">2024</h5>
-                                          <h5 class="card-title" style="margin: 16px;">Cybersecurity Excellence Awards 2024</h5>
-                                          <p class="card-text idc-secondary-60">Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.</p>
-                                        </div>
-                                      </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -1020,10 +1080,10 @@ display: block; width: 200px;">
                 <div class="row">
                     <div class="col-12">
                         <div class="text-center">
-                            <h2 class="section-title fade-text" data-delay="0">
+                            <h2 class="section-title fade-text" data-delay="0" style="margin-bottom: 8px !important">
                                 Over 100+ Partners
                             </h2>
-                            <h2 class="pb-2 font-weight-bold fade-text" data-delay="0.2">
+                            <h2 class="pb-2 font-weight-bold fade-text" data-delay="0.2" style="text-transform: uppercase;margin-bottom: 32px;">
                             Trust <span class="idc-primary-60">Viettel IDC</span></h2>
                         </div>
                     </div>
@@ -1033,70 +1093,70 @@ display: block; width: 200px;">
                                 <article class="wrapper d-none d-md-flex">
                                     <div class="marquee marquee-reverse">
                                         <div class="marquee_group">
-                                            <img class="logo-partner" src="./img/logo.svg">
-                                            <img class="logo-partner" src="./img/logo-1.svg">
-                                            <img class="logo-partner" src="./img/logo-2.svg">
-                                            <img class="logo-partner" src="./img/logo-3.svg">
-                                            <img class="logo-partner" src="./img/logo-4.svg">
-                                            <img class="logo-partner" src="./img/logo-5.svg">
-                                            <img class="logo-partner" src="./img/logo-6.svg">
-                                            <img class="logo-partner" src="./img/logo-7.svg">
-                                            <img class="logo-partner" src="./img/logo-8.svg">
-                                            <img class="logo-partner" src="./img/logo-9.svg">
+                                            <img class="logo-partner" src="./img/300.svg">
+                                            <img class="logo-partner" src="./img/akamai.svg">
+                                            <img class="logo-partner" src="./img/AWS.svg">
+                                            <img class="logo-partner" src="./img/Fortinet.svg">
+                                            <img class="logo-partner" src="./img/Hewlett.svg">
+                                            <img class="logo-partner" src="./img/Microsoft.svg">
+                                            <img class="logo-partner" src="./img/Qualcomm.svg">
+                                            <img class="logo-partner" src="./img/radware.svg">
+                                            <img class="logo-partner" src="./img/veeam.svg">
+                                            <img class="logo-partner" src="./img/vmware.svg">
                                         </div>
                                         <div aria-hidden="true" class="marquee_group">
-                                            <img class="logo-partner" src="./img/logo.svg">
-                                            <img class="logo-partner" src="./img/logo-1.svg">
-                                            <img class="logo-partner" src="./img/logo-2.svg">
-                                            <img class="logo-partner" src="./img/logo-3.svg">
-                                            <img class="logo-partner" src="./img/logo-4.svg">
-                                            <img class="logo-partner" src="./img/logo-5.svg">
-                                            <img class="logo-partner" src="./img/logo-6.svg">
-                                            <img class="logo-partner" src="./img/logo-7.svg">
-                                            <img class="logo-partner" src="./img/logo-8.svg">
-                                            <img class="logo-partner" src="./img/logo-9.svg">
+                                            <img class="logo-partner" src="./img/300.svg">
+                                            <img class="logo-partner" src="./img/akamai.svg">
+                                            <img class="logo-partner" src="./img/AWS.svg">
+                                            <img class="logo-partner" src="./img/Fortinet.svg">
+                                            <img class="logo-partner" src="./img/Hewlett.svg">
+                                            <img class="logo-partner" src="./img/Microsoft.svg">
+                                            <img class="logo-partner" src="./img/Qualcomm.svg">
+                                            <img class="logo-partner" src="./img/radware.svg">
+                                            <img class="logo-partner" src="./img/veeam.svg">
+                                            <img class="logo-partner" src="./img/vmware.svg">
                                         </div>
                                     </div>
                                     <div class="marquee">
                                         <div class="marquee_group">
-                                            <img class="logo-partner" src="./img/logo.svg">
-                                            <img class="logo-partner" src="./img/logo-1.svg">
-                                            <img class="logo-partner" src="./img/logo-2.svg">
-                                            <img class="logo-partner" src="./img/logo-3.svg">
-                                            <img class="logo-partner" src="./img/logo-4.svg">
-                                            <img class="logo-partner" src="./img/logo-5.svg">
-                                            <img class="logo-partner" src="./img/logo-6.svg">
-                                            <img class="logo-partner" src="./img/logo-7.svg">
-                                            <img class="logo-partner" src="./img/logo-8.svg">
-                                            <img class="logo-partner" src="./img/logo-9.svg">
+                                            <img class="logo-partner" src="./img/300.svg">
+                                            <img class="logo-partner" src="./img/akamai.svg">
+                                            <img class="logo-partner" src="./img/AWS.svg">
+                                            <img class="logo-partner" src="./img/Fortinet.svg">
+                                            <img class="logo-partner" src="./img/Hewlett.svg">
+                                            <img class="logo-partner" src="./img/Microsoft.svg">
+                                            <img class="logo-partner" src="./img/Qualcomm.svg">
+                                            <img class="logo-partner" src="./img/radware.svg">
+                                            <img class="logo-partner" src="./img/veeam.svg">
+                                            <img class="logo-partner" src="./img/vmware.svg">
                                         </div>
                                         <div aria-hidden="true" class="marquee_group">
-                                            <img class="logo-partner" src="./img/logo.svg">
-                                            <img class="logo-partner" src="./img/logo-1.svg">
-                                            <img class="logo-partner" src="./img/logo-2.svg">
-                                            <img class="logo-partner" src="./img/logo-3.svg">
-                                            <img class="logo-partner" src="./img/logo-4.svg">
-                                            <img class="logo-partner" src="./img/logo-5.svg">
-                                            <img class="logo-partner" src="./img/logo-6.svg">
-                                            <img class="logo-partner" src="./img/logo-7.svg">
-                                            <img class="logo-partner" src="./img/logo-8.svg">
-                                            <img class="logo-partner" src="./img/logo-9.svg">
+                                            <img class="logo-partner" src="./img/300.svg">
+                                            <img class="logo-partner" src="./img/akamai.svg">
+                                            <img class="logo-partner" src="./img/AWS.svg">
+                                            <img class="logo-partner" src="./img/Fortinet.svg">
+                                            <img class="logo-partner" src="./img/Hewlett.svg">
+                                            <img class="logo-partner" src="./img/Microsoft.svg">
+                                            <img class="logo-partner" src="./img/Qualcomm.svg">
+                                            <img class="logo-partner" src="./img/radware.svg">
+                                            <img class="logo-partner" src="./img/veeam.svg">
+                                            <img class="logo-partner" src="./img/vmware.svg">
                                         </div>
                                     </div>
                                 </article>
                                 <article class="d-md-none">
                                     <div class="marquee_mob">
                                         <div class="marquee_group_mob">
-                                            <img class="logo-partner" src="./img/logo.svg">
-                                            <img class="logo-partner" src="./img/logo-1.svg">
-                                            <img class="logo-partner" src="./img/logo-2.svg">
-                                            <img class="logo-partner" src="./img/logo-3.svg">
-                                            <img class="logo-partner" src="./img/logo-4.svg">
-                                            <img class="logo-partner" src="./img/logo-5.svg">
-                                            <img class="logo-partner" src="./img/logo-6.svg">
-                                            <img class="logo-partner" src="./img/logo-7.svg">
-                                            <img class="logo-partner" src="./img/logo-8.svg">
-                                            <img class="logo-partner" src="./img/logo-9.svg">
+                                            <img class="logo-partner" src="./img/300.svg">
+                                            <img class="logo-partner" src="./img/akamai.svg">
+                                            <img class="logo-partner" src="./img/AWS.svg">
+                                            <img class="logo-partner" src="./img/Fortinet.svg">
+                                            <img class="logo-partner" src="./img/Hewlett.svg">
+                                            <img class="logo-partner" src="./img/Microsoft.svg">
+                                            <img class="logo-partner" src="./img/Qualcomm.svg">
+                                            <img class="logo-partner" src="./img/radware.svg">
+                                            <img class="logo-partner" src="./img/veeam.svg">
+                                            <img class="logo-partner" src="./img/vmware.svg">
                                         </div>
                                     </div>
                                 </article>
@@ -1124,7 +1184,7 @@ display: block; width: 200px;">
                             <div class="container module-wrap services-container">
                                 <div class="row">
                                     <div class="col-xl-12 col-lg-12 col-ml-6 col-sm-12 col-xs-12 col-solution col-hover-solution">
-                                        <div class="why-us-content">
+                                        <div class="why-us-content hover-effect">
                                             <div class="row">
                                                 <div class="col-11 why-us-title">
                                                     <h4 style="text-align: left;">
@@ -1201,8 +1261,8 @@ display: block; width: 200px;">
          </section>
         <!-- END: F&Q -->
         <!-- NEWS -->
-         <section id="news" class="section-padding scroll-section fade-text" data-delay="0">
-            <div class="container section-wapper">
+         <section id="news" class="section-padding scroll-section fade-text" data-delay="0" style="height: fit-content !important;">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="text-center">
@@ -1214,22 +1274,25 @@ display: block; width: 200px;">
                     <div class="col-12 fade-text" data-delay="0.2" style="padding: 0px;">
                         <div class="news-wrapper container news-list">
                             <div class="row">
-                                <div class="col-md-12" style="padding: 0px;">
+                                <div class="col-md-12">
                                     <div class="news-head-wrapper">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-6 news-image-wrapper" style="padding-left: 0%;">
                                                 <a href="#" class="news-image"
                                                     style="background-image: url(./img/news.svg)"></a>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="news-content">
-                                                    <span class="news-note">14/10/2024</span>
-                                                    <h1 class="news-content-title" style="font-size:32px">
-                                                        <a href="#" style="font-size:32px;">Comprehensive data security with Viettel IDC</a>
-                                                    </h1>
+                                                    <h3 class="news-content-title font-weight-bold">
+                                                        Comprehensive data security with Viettel IDC
+                                                    </h3>
                                                     <p class="news-content-description" style="font-size:16px;">
                                                         To accompany businesses in this process and support you in focusing on core business activities, Viettel IDC offers exciting promotions for security services: discount up to 35% of service fee; offer up to 06 months of service usage.
                                                     </p>
+                                                </div>
+                                                <div class="news-date-wrapper">
+                                                    <img src="/img/news-time.svg">
+                                                    <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1238,46 +1301,167 @@ display: block; width: 200px;">
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="news-wrapper">
-                                        <a href="#" class="news-image" 
-                                        style="background-image: url(./img/news.svg)"></a>
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news.svg)"></a>
+                                        </div>
                                         <div class="news-content">
-                                            <span class="news-note">
-                                                <span class="news-note">22/10/2024</span>
-                                            </span>
-                                            <h4 class="news-content-title" style="font-size:22px">
+                                            <p class="news-content-title font-weight-bold" >
                                                 <a href="#">Comprehensive data security with Viettel IDC</a>
-                                            </h4>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="news-wrapper">
-                                        <a href="#" class="news-image" 
-                                        style="background-image: url(./img/news1.svg)"></a>
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news1.svg)"></a>
+                                        </div>
                                         <div class="news-content">
-                                            <span class="news-note">
-                                                <span class="news-note">22/10/2024</span>
-                                            </span>
-                                            <h4 class="news-content-title" style="font-size:22px">
+                                            <p class="news-content-title font-weight-bold">
                                                 <a href="#">Comprehensive data security with Viettel IDC</a>
-                                            </h4>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="news-wrapper">
-                                        <a href="#" class="news-image" 
-                                        style="background-image: url(./img/news2.svg)"></a>
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news2.svg)"></a>
+                                        </div>
                                         <div class="news-content">
-                                            <span class="news-note">
-                                                <span class="news-note">22/10/2024</span>
-                                            </span>
-                                            <h4 class="news-content-title" style="font-size:22px">
+                                            <p class="news-content-title font-weight-bold">
                                                 <a href="#">Comprehensive data security with Viettel IDC</a>
-                                            </h4>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row hidden-news">
+                                <div class="col-md-4">
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news.svg)"></a>
+                                        </div>
+                                        <div class="news-content">
+                                            <p class="news-content-title font-weight-bold" >
+                                                <a href="#">Comprehensive data security with Viettel IDC</a>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news1.svg)"></a>
+                                        </div>
+                                        <div class="news-content">
+                                            <p class="news-content-title font-weight-bold">
+                                                <a href="#">Comprehensive data security with Viettel IDC</a>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news2.svg)"></a>
+                                        </div>
+                                        <div class="news-content">
+                                            <p class="news-content-title font-weight-bold">
+                                                <a href="#">Comprehensive data security with Viettel IDC</a>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row hidden-news">
+                                <div class="col-md-4">
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news.svg)"></a>
+                                        </div>
+                                        <div class="news-content">
+                                            <p class="news-content-title font-weight-bold" >
+                                                <a href="#">Comprehensive data security with Viettel IDC</a>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news1.svg)"></a>
+                                        </div>
+                                        <div class="news-content">
+                                            <p class="news-content-title font-weight-bold">
+                                                <a href="#">Comprehensive data security with Viettel IDC</a>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="news-wrapper news-wrapper-body">
+                                        <div class="news-image-wrapper">
+                                            <a href="#" class="news-image" 
+                                            style="background-image: url(./img/news2.svg)"></a>
+                                        </div>
+                                        <div class="news-content">
+                                            <p class="news-content-title font-weight-bold">
+                                                <a href="#">Comprehensive data security with Viettel IDC</a>
+                                            </p>
+                                        </div>
+                                        <div class="news-date-wrapper">
+                                            <img src="/img/news-time.svg">
+                                            <span class="news-note" style="margin-top: 0px;">14/10/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" id ="view-more-btn" >
+                                <div class="col-12" style="justify-content: center;display: flex;">
+                                    <a href="#" onclick="viewMore()" class="btn custom-btn d-lg-block d-none"><span>See more</span></a>
                                 </div>
                             </div>
                         </div>
@@ -1286,10 +1470,122 @@ display: block; width: 200px;">
             </div>
          </section>
         <!-- END: F&Q -->
+
+        <!-- FOOTER -->
+         <footer>
+            <div class="footer scroll-section" id="footer" style="height: fit-content !important;">
+                <div class="container">
+                    <div class="column">
+                        <h3>Viettel IDC</h3>
+                        <p>Cơ quan chủ quản: Công ty TNHH Viettel - CHT (Viettel IDC), trực thuộc Tập đoàn Công nghiệp - Viễn thông Quân đội.</p>
+                        <p>Mã số doanh nghiệp: 0500589150 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp lần đầu ngày 11/04/2008, sửa đổi lần thứ 8 ngày 14/10/2022.</p>
+                        <p>Chịu trách nhiệm nội dung: Ông Hoàng Văn Ngọc.</p>
+                        <p><strong>Hotline:</strong> 1800 8088</p>
+                        <p><strong>Email:</strong> <a href="mailto:support@viettelidc.com.vn">support@viettelidc.com.vn</a></p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-zalo"></i></a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>Dịch vụ nổi bật</h3>
+                        <p>Viettel Cloud Server</p>
+                        <p>Viettel Virtual Private Cloud</p>
+                        <p>Viettel Cloud Object Storage</p>
+                        <p>Viettel Cloud Backup</p>
+                        <p>Viettel Media CDN</p>
+                        <p>Thuê chỗ đặt thiết bị</p>
+                        <p>Viettel Hybrid Connect</p>
+                        <p>Viettel Cloud Desktop</p>
+                        <p>Viettel Cloud File Storage</p>
+                    </div>
+                    <div class="column">
+                        <h3>Giải pháp</h3>
+                        <p>Sao lưu & Dự phòng dữ liệu</p>
+                        <p>Chuyển đổi hạ tầng Cloud</p>
+                        <p>Container</p>
+                        <p>Mạng phân phối nội dung</p>
+                        <p>Phát triển & Vận hành</p>
+                        <p>Đám mây hiệu năng cao</p>
+                        <p>Giám sát & Ứng dụng AI</p>
+                        <p>Làm việc di động</p>
+                        <p>Xây dựng Website</p>
+                    </div>
+                    <div class="column">
+                        <h3>Trợ giúp</h3>
+                        <p>Liên hệ hỗ trợ, khiếu nại</p>
+                        <p>Hỗ trợ sử dụng dịch vụ</p>
+                        <p>Hệ thống Quản trị dịch vụ</p>
+                        <p>Thỏa thuận sử dụng</p>
+                        <p>Cách đăng ký dịch vụ máy chủ ảo</p>
+                        <p>Các hình thức thanh toán</p>
+                        <p>Hướng dẫn gia hạn dịch vụ</p>
+                        <p>Chương trình ưu đãi, khuyến mại</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>© Bản quyền thuộc về: Công ty TNHH Viettel - CHT</p>
+                    <img src="/img/300.svg" alt="Logo 1">
+                    <img src="/img/300.svg" alt="Logo 2">
+                    <img src="/img/300.svg" alt="Logo 3">
+                    <img src="/img/300.svg" alt="Logo 4">
+                </div>
+            </div>
+         </footer>
+        <!-- END: FOOTER -->
+         <modal>
+            <div class="overlay" id="formPopup">
+                <div class="popup">
+                    <div class="text-center">
+                        <h2 
+                         class="section-title fade-text" style="margin-bottom: 16px;" data-delay="0">
+                            Expand your horizons
+                        </h2> 
+                        <p class="section-subtitle fade-text" data-delay="0.2">
+                            Viettel IDC is always ready to support
+                    </p>
+                    <form class="idc-form-advice fade-text" data-delay="0.3">
+                        <div class="row mb-4">
+                            <div class="col-12 col-input">
+                                <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                                <label for="name" class="form__label">Name<span class="idc-primary-60">*</span></label>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-input">
+                                <input type="input" class="form__field" placeholder="Phone Number" name="phoneno" id='phoneno' required />
+                                <label for="phoneno" class="form__label">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-input">
+                                <input type="input" class="form__field" placeholder="Email" name="email" id='email' required />
+                                <label for="email" class="form__label">Email<span class="idc-primary-60">*</span></label>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-input">
+                                <input type="input" class="form__field" placeholder="Title" name="title" id='title' required />
+                                <label for="title" class="form__label">Title<span class="idc-primary-60">*</span></label>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12 col-input">
+                                <textarea name="advice" id="advice" placeholder="Ask for advice" class="form__field" rows="5" required></textarea>
+                                <label class="form__label" for="advice">Ask for advice <span class="idc-primary-60">*</span></label>
+                            </div>
+                        </div>
+                        <button type="submit" class="idc-btn-primary">Get advice</button>
+                    </form>
+                </div>
+            </div>
+         </modal>
     </main>
 
     <!--
-
 T e m p l a t e M o
 
 -->
@@ -1313,6 +1609,15 @@ T e m p l a t e M o
         AOS.init({once: true});
     </script>
     <script>
+        const solutionImages = document.querySelectorAll(".img");
+        var listData = [
+                { groupId: 'group1', img: 'img/award.svg', year: '2024', name : 'Cybersecurity Excellence Awards 2024', content :'Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.' },
+                { groupId: 'group1', img: 'img/award.svg', year: '2024', name : 'Cybersecurity Excellence Awards 2024', content :'Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.' },
+                { groupId: 'group1', img: 'img/award.svg', year: '2022', name : 'Cybersecurity Excellence Awards 2022', content :'Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.' },
+                { groupId: 'group2', img: 'img/award.svg', year: '2022', name : 'Cybersecurity Excellence Awards 2022', content :'Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.' },
+                { groupId: 'group2', img: 'img/award.svg', year: '2023', name : 'Cybersecurity Excellence Awards 2023', content :'Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.' },
+                { groupId: 'group3', img: 'img/award.svg', year: '2023', name : 'Cybersecurity Excellence Awards 2023', content :'Cybersecurity Excellence Awards 2024 Cybersecurity Excellence Awards 2024Cybersecurity Excellence Awards 2024.' },
+            ];
         document.addEventListener('DOMContentLoaded', () => {
             const fadeTexts = document.querySelectorAll('.fade-text');
 
@@ -1335,37 +1640,16 @@ T e m p l a t e M o
 
             // region AWARDS
             const buttons = document.querySelectorAll('.idc-awards-indicator-item');
-            const allItems = document.querySelectorAll('#award-carousel .item');
 
 
             buttons.forEach(button => {
                 button.addEventListener('click', function () {
                     const group = button.getAttribute('data-group');
-                    filterItems(group);
+                    rebindingAwardsData(group);
                 });
             });
 
-            function filterItems(group) {
-                // Hide all items first
-                allItems.forEach(item => {
-                    item.style.display = 'none';
-                    item.parentElement.classList.remove('active');
-                    item.classList.remove('active');
-                });
-
-                // Show items of the selected group
-                const groupItems = document.querySelectorAll(`#award-carousel .item.${group}`);
-                groupItems.forEach((item, index) => {
-                    item.style.display = 'flex';
-                    if (index === 0) {
-                        item.parentElement.classList.add('active');
-                        item.classList.add('active');
-                    }
-                });
-            }
-
-            // Initialize the carousel with the first group
-            filterItems('group1');
+            rebindingAwardsData("group1")
         });
         $(document).ready(function(){
             $('.menu-root').hover(function(){
@@ -1403,10 +1687,10 @@ T e m p l a t e M o
                 animateOut: 'fadeOut',
                 animateIn: 'fadeIn',
                 pagination:false,
-                navigation:false,
+                navigation:true,
                 navText: [
-                    "<i class='fa fa-angle-left'></i>",
-                    "<i class='fa fa-angle-right'></i>"
+                    "",
+                    ""
                 ],
                 autoHeight: true,
                 autoplayTimeout: 7000,
@@ -1425,8 +1709,30 @@ T e m p l a t e M o
                 }
             });
             awardCarousel.on('translated.owl.carousel', function(event) {
-                alert("slider");
-                // Additional actions to perform after translation
+                
+            });
+            $("#solution-mobile-carousel").owlCarousel({
+                autoplay: false,
+                rewind: true, /* use rewind if you don't want loop */
+                pagination:false,
+                navigation:false,
+                autoHeight: true,
+                autoplayTimeout: 7000,
+                smartSpeed: 800,
+                nav: false,
+                dots: true,
+                navigator: false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    576:{
+                        items:1
+                    },
+                    768:{
+                        items:1
+                    }
+                }
             });
             init();
         });
@@ -1434,22 +1740,56 @@ T e m p l a t e M o
         const rebindingAwardsData = (groundId) =>{
             var awardCarousel =  $("#award-carousel");
             // Fetch new data (example data here, replace with your data fetching logic)
-            var newData = [
-                { id: 4, content: 'New 1' },
-                { id: 5, content: 'New 2' },
-                { id: 6, content: 'New 3' }
-            ];
+            var dataFilterByGroupId = listData.filter(x => x.groupId == groundId);
 
             // Clear current items
-            awardCarousel.trigger('replace.owl.carousel', '').trigger('refresh.owl.carousel');
+            awardCarousel.trigger('replace.owl.carousel', [[]]).trigger('refresh.owl.carousel');
 
             // Add new items
-            $.each(newData, function(index, item) {
-                awardCarousel.trigger('add.owl.carousel', ['<div class="item"><h4>' + item.content + '</h4></div>']);
+            $.each(dataFilterByGroupId, function(index, item) {
+                awardCarousel.trigger('add.owl.carousel', 
+                [`<div class="item ${groundId}">
+                    <div class="card">
+                        <img src="${item.img}" class="card-img-top" alt="${item.img}">
+                        <div class="card-body">
+                            <h5 class="card-title idc-secondary-70" style="font-size: 30px; font-weight: bold; line-height: 36px;">${item.year}</h5>
+                            <h5 class="card-title" style="margin: 16px;">${item.name}</h5>
+                            <p class="card-text idc-secondary-60">${item.content}</p>
+                            </div>
+                        </div>
+                </div>` ]);
             });
 
             // Refresh to update the carousel display
             awardCarousel.trigger('refresh.owl.carousel');
+            awardCarousel.owlCarousel({
+                autoplay: false,
+                rewind: true, /* use rewind if you don't want loop */
+                margin: 20,
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
+                pagination:false,
+                navigation:true,
+                navText: [
+                    "",
+                    ""
+                ],
+                autoHeight: true,
+                autoplayTimeout: 7000,
+                smartSpeed: 800,
+                nav: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    576:{
+                        items:2
+                    },
+                    768:{
+                        items:3
+                    }
+                }
+            });
         }
 
         const init = function(){
@@ -1460,10 +1800,9 @@ T e m p l a t e M o
                 const delta = Math.sign(event.deltaY);
                 const currentScroll = scrollContainer.scrollTop;
                 const sectionHeight = window.innerHeight;
+                const isNewsSection = currentScroll >= (sections.length - 3) * sectionHeight;
                 const isLastSection = currentScroll >= (sections.length - 2) * sectionHeight;
-
-                debugger;
-                if (!isLastSection) {
+                if (!isLastSection && !isNewsSection) {
                     event.preventDefault(); // Prevent default scroll behavior for vertical sections
                     const currentSection = Math.round(currentScroll / sectionHeight);
                     const nextSection = Math.max(0, Math.min(sections.length - 1, currentSection + delta));
@@ -1472,79 +1811,103 @@ T e m p l a t e M o
                     top: nextSection * sectionHeight,
                     behavior: 'smooth'
                     });
-                } else if (isLastSection && delta > 0) {
-                    const lastSection = document.getElementById('news');
+                } else if (isNewsSection && delta > 0) {
+                    const newSection = document.getElementById('news');
+                    newSection.style.height = 'fit-content';
+                    scrollContainer.style.overflowY = 'auto'; // Enable vertical scrolling for the last section
+                }else if (isLastSection && delta > 0) {
+                    const lastSection = document.getElementById('footer');
                     lastSection.style.height = 'fit-content';
                     scrollContainer.style.overflowY = 'auto'; // Enable vertical scrolling for the last section
                 }
             });
-            // const scrollContainer = document.getElementById('scrollContainer');
-            // const sections = document.querySelectorAll('.scroll-section');
+            window.addEventListener('resize', () => {
+                if (window.innerHeight <= 870) {
+                    sections.forEach(section => section.classList.remove('scroll-section'));
+                } else {
+                    sections.forEach(section => section.classList.add('scroll-section'));
+                }
+            });
             
-            // scrollContainer.addEventListener('wheel', (event) => {
-            //     debugger;
-            //     event.preventDefault(); // Prevent default scroll behavior
-            //     let sectionHeight = window.innerHeight;
-            //     const currentScroll = scrollContainer.scrollTop;
-            //     const delta = Math.sign(event.deltaY); // Get scroll direction
-            //     const isLastSection = currentScroll >= (sections.length - 2) * sectionHeight;
-            //     if(isLastSection){
-            //         sectionHeight = $('#news .row')[0].clientHeight;
-            //     }
-            //     // Determine next section index
-            //     const currentSection = Math.round(scrollContainer.scrollTop / window.innerHeight);
-            //     const nextSection = Math.max(0, Math.min(sections.length - 1, currentSection + delta));
-            //     if(currentSection < nextSection){
-            //         // Smoothly scroll to the next section
-            //         scrollContainer.scrollTo({
-            //             top: nextSection * sectionHeight,
-            //             behavior: 'smooth'
-            //         });
-            //     }else{
-            //         scrollContainer.clientHeight = sectionHeight;
-            //         scrollContainer.offsetHeight = sectionHeight;
-            //         scrollContainer.scrollTo({
-            //             behavior: 'smooth',
-            //         });
-            //     }
-            // });
+            document.getElementById('formPopup').addEventListener('click', function(event) {
+                if (event.target === this) {
+                    closeForm();
+                }
+            });
+
+            solutionImages.forEach(function(img, i){
+                img.onmouseover = function(){
+                    var activeElement = [...solutionImages].find(x => x.className.includes("solution-active"))
+                    var activeIndex = [...solutionImages].indexOf(activeElement);
+                    event.stopPropagation();
+                    if(solutionImages[i].classList.contains("solution-active") && i != activeIndex){
+                        solutionImages[i].classList.remove("solution-active");
+                    }else{
+                        clearActiveImage(img);
+                        solutionImages[i].classList.add("solution-active");
+                    }
+                }
+            });
+            const hoverEffects = document.querySelectorAll(".whyus-section .why-us-content");
+            hoverEffects.forEach(function(element, i){
+                element.onmouseover = function(){
+                    hoverEffects.forEach(function(item, index){
+                        hoverEffects[index].classList.remove("hover-effect");
+                    });
+                }
+            });
+            const hoverFQEffects = document.querySelectorAll("#fandq .why-us-content");
+            hoverFQEffects.forEach(function(element, i){
+                element.onmouseover = function(){
+                    hoverFQEffects.forEach(function(item, index){
+                        hoverFQEffects[index].classList.remove("hover-effect");
+                    });
+                }
+            });
+
+            const awardsIndicators = document.querySelectorAll(".idc-awards-indicator-item");
+            var activeIndicatorIndex = 0;
+            awardsIndicators.forEach(function(item, i){
+                item.onclick = function(){
+                    event.stopPropagation();
+                    if(awardsIndicators[i].classList.contains("active") && i != activeIndicatorIndex){
+                        awardsIndicators[i].classList.remove("active");
+                    }else{
+                        awardsIndicators.forEach(function(item){
+                            item.classList.remove('active');
+                        });
+                        awardsIndicators[i].classList.add("active");
+                    }
+                }
+            });
+
         }
         
-        const solutionImages = document.querySelectorAll(".img");
-        solutionImages.forEach(function(img, i){
-            img.onmouseover = function(){
-                var activeElement = [...solutionImages].find(x => x.className.includes("solution-active"))
-                var activeIndex = [...solutionImages].indexOf(activeElement);
-                event.stopPropagation();
-                if(solutionImages[i].classList.contains("solution-active") && i != activeIndex){
-                    solutionImages[i].classList.remove("solution-active");
-                }else{
-                    clearActiveImage(img);
-                    solutionImages[i].classList.add("solution-active");
-                }
-            }
-        })
         function clearActiveImage(){
             solutionImages.forEach(function(img){
                 img.classList.remove('solution-active');
             });
         }
 
-        const awardsIndicators = document.querySelectorAll(".idc-awards-indicator-item");
-        var activeIndicatorIndex = 0;
-        awardsIndicators.forEach(function(item, i){
-            item.onclick = function(){
-                event.stopPropagation();
-                if(awardsIndicators[i].classList.contains("active") && i != activeIndicatorIndex){
-                    awardsIndicators[i].classList.remove("active");
-                }else{
-                    awardsIndicators.forEach(function(item){
-                        item.classList.remove('active');
-                    });
-                    awardsIndicators[i].classList.add("active");
-                }
+        
+        function openForm() {
+            document.getElementById('formPopup').style.display = 'flex';
+        }
+
+        function closeForm() {
+            document.getElementById('formPopup').style.display = 'none';
+        }
+
+        function viewMore() {
+            const hiddenNewsGroup = document.querySelectorAll('.hidden-news');
+            if(hiddenNewsGroup && hiddenNewsGroup != undefined && hiddenNewsGroup.length > 0){
+                hiddenNewsGroup[0].classList.remove("hidden-news");
             }
-        })
+            if(hiddenNewsGroup.length <= 1){
+                var viewMoreBtn = document.getElementById('view-more-btn');
+                viewMoreBtn.style.display = 'none';
+            }
+        }
     </script>
 </body>
 

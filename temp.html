@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vertical Scroll Snap with Custom Last Section</title>
+  <title>Horizontal Scroll Snap Sections</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      overflow: hidden; /* Prevent default scrolling */
     }
 
     .scroll-container {
+      display: flex;
+      overflow-x: auto; /* Enable horizontal scrolling */
       height: 100vh; /* Full viewport height */
-      overflow-y: auto; /* Enable vertical scrolling */
-      scroll-snap-type: y mandatory; /* Snap vertically */
+      scroll-snap-type: x mandatory; /* Snap horizontally */
       scroll-behavior: smooth; /* Smooth scrolling */
     }
 
     .scroll-section {
-      height: 100vh; /* Full viewport height for each section */
+      flex: 0 0 100vw; /* Full viewport width for each section */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -33,11 +33,8 @@
     .section-1 { background-color: #3498db; }
     .section-2 { background-color: #e74c3c; }
     .section-3 { background-color: #2ecc71; }
-    .section-4 {
-      background-color: #f1c40f;
-      height: 200vh; /* Double the height of the viewport */
-      scroll-snap-align: start; /* Align snap at the start of the last section */
-    }
+    .section-4 { background-color: #f1c40f; }
+
   </style>
 </head>
 <body>
@@ -45,7 +42,7 @@
     <div class="scroll-section section-1">Section 1</div>
     <div class="scroll-section section-2">Section 2</div>
     <div class="scroll-section section-3">Section 3</div>
-    <div class="scroll-section section-4" id="lastSection">Section 4 (Double Height)</div>
+    <div class="scroll-section section-4">Section 4</div>
   </div>
 
   <script>
@@ -53,25 +50,18 @@
     const sections = document.querySelectorAll('.scroll-section');
 
     scrollContainer.addEventListener('wheel', (event) => {
-      const delta = Math.sign(event.deltaY);
-      const currentScroll = scrollContainer.scrollTop;
-      const sectionHeight = window.innerHeight;
-      const isLastSection = currentScroll >= (sections.length - 2) * sectionHeight;
+      event.preventDefault(); // Prevent default scroll behavior
+      const delta = Math.sign(event.deltaY); // Get scroll direction
 
-      debugger;
-      if (!isLastSection) {
-        event.preventDefault(); // Prevent default scroll behavior for vertical sections
-        const currentSection = Math.round(currentScroll / sectionHeight);
-        const nextSection = Math.max(0, Math.min(sections.length - 1, currentSection + delta));
+      // Determine next section index
+      const currentSection = Math.round(scrollContainer.scrollLeft / window.innerWidth);
+      const nextSection = Math.max(0, Math.min(sections.length - 1, currentSection + delta));
 
-        scrollContainer.scrollTo({
-          top: nextSection * sectionHeight,
-          behavior: 'smooth'
-        });
-      } else if (isLastSection && delta > 0) {
-        
-        scrollContainer.style.overflowY = 'auto'; // Enable vertical scrolling for the last section
-      }
+      // Smoothly scroll to the next section
+      scrollContainer.scrollTo({
+        left: nextSection * window.innerWidth,
+        behavior: 'smooth'
+      });
     });
   </script>
 </body>

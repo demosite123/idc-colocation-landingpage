@@ -701,7 +701,7 @@ a.idc-btn-get-advice {
     background-position: center;
     background-position-y: center;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 25% ), url('../../../../assets/imgs/landingpage/ldp-colocation/idc-ldp-colocation-solution-bg.jpg') no-repeat center;
+    /* background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 25% ), url('../../../../assets/imgs/landingpage/ldp-colocation/idc-ldp-colocation-solution-bg.jpg') no-repeat center; */
 }
 
 .solution-container-mobile .owl-dots {
@@ -994,12 +994,7 @@ a.newest-prom-info {
     text-align: justify;
 }
 
-.news-content-title a {
-    font-size: 1rem !important;
-    font-weight: 500 !important;
-    font-family: 'Sarabun', sans-serif !important;
-    color: #000000;
-}
+
 
 .service-info-card {
     flex: 50%;
